@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixelarticons Catalog</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .search {
+      padding: 10px;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto 40px;
+      display: block;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 20px;
+    }
+    .icon-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .icon-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .icon-svg {
+      margin-bottom: 10px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-svg svg {
+      width: 24px;
+      height: 24px;
+    }
+    .icon-name {
+      font-size: 12px;
+      text-align: center;
+      word-break: break-word;
+    }
+    .icon-original {
+      font-size: 10px;
+      color: #888;
+      margin-top: 5px;
+    }
+    .copied {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      transition: opacity 0.3s;
+    }
+    .section-title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    .error-message {
+      color: #e53e3e;
+      font-size: 10px;
+      text-align: center;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+    
+    function App() {
+      const [search, setSearch] = useState("");
+      const [copied, setCopied] = useState("");
+      const [icons, setIcons] = useState({});
+      const [loading, setLoading] = useState(true);
+      const [svgCache, setSvgCache] = useState({});
+      const [errorIcons, setErrorIcons] = useState([]);
+      
+      // Convert PascalCase to kebab-case
+      const pascalToKebab = (str) => {
+        return str
+          .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+          .replace(/([A-Z])([A-Z][a-z])/g, '$1-$2')
+          .replace(/([a-zA-Z])(\d)/g, '$1-$2')  
+          .toLowerCase();
+      };
+      
+      useEffect(() => {
+        // Get the list of all available SVG files
+        fetch('../svg/')
+          .then(response => {
+            console.error("Cannot list directory contents directly. Using fallback approach.");
+            return Promise.resolve([]);
+          })
+          .catch(() => {
+            console.log("Using fallback approach to load icons");
+            return Promise.resolve([]);
+          })
+          .finally(() => {
+            // Load icons from the JSON file
+            fetch('../examples/icon-key.json')
+              .then(response => response.json())
+              .then(async data => {
+                const { allIcons } = data;
+                
+                // Create mapping objects
+                const componentToOriginal = {};
+                const originalToComponent = {};
+                
+                // Map all icons
+                for (const component of allIcons) {
+                  const original = pascalToKebab(component);
+                  componentToOriginal[component] = original;
+                  originalToComponent[original] = component;
+                }
+                
+                setIcons({ 
+                  originalToComponent, 
+                  componentToOriginal, 
+                  allComponents: allIcons 
+                });
+                setLoading(false);
+                
+                // Pre-fetch SVG content for each component
+                for (const component of allIcons) {
+                  fetchSvgForComponent(component, componentToOriginal[component]);
+                }
+              })
+              .catch(error => {
+                console.error("Failed to load icons:", error);
+                setLoading(false);
+              });
+          });
+      }, []);
+      
+      // Function to fetch SVG content for a component
+      const fetchSvgForComponent = async (component, kebabName) => {
+        if (svgCache[component]) return svgCache[component];
+        
+        try {
+          // Handle special case for Icon prefix components (4g, 4k, 5g)
+          let svgPath = kebabName;
+          if (component.startsWith('Icon')) {
+            // Remove 'icon-' prefix for special icon components
+            svgPath = kebabName.replace(/^icon-/, '');
+          }
+          
+          // Handle specific naming pattern issues
+          if (component.includes('CellularSignal') && !component.includes('Off')) {
+            // Handle CellularSignal0, CellularSignal1, etc.
+            const signalNumber = component.match(/CellularSignal(\d)/);
+            if (signalNumber && signalNumber[1]) {
+              svgPath = `cellular-signal-${signalNumber[1]}`;
+            }
+          }
+          
+          // Handle special case for briefcase-search-1
+          if (component === 'BriefcaseSearch1') {
+            svgPath = 'briefcase-search-1';
+          }
+          
+          // Special case for lightbulb2 -> lightbulb-2
+          if (component === 'Lightbulb2') {
+            svgPath = 'lightbulb-2';
+          }
+          
+          // Additional fallback attempts if the file wasn't found
+          const fallbackPaths = [
+            svgPath,
+            // Try with different number formatting
+            svgPath.replace(/(\d+)$/, '-$1'), // Add hyphen before trailing numbers if not present
+            svgPath.replace(/-(\d+)$/, '$1'), // Remove hyphen before trailing numbers if present
+            // For github2 -> github-2
+            component.toLowerCase().replace(/([a-z])(\d+)$/, '$1-$2'),
+          ];
+          
+          let response;
+          let foundPath = null;
+          
+          // Try each path until one works
+          for (const path of fallbackPaths) {
+            try {
+              response = await fetch(`../svg/${path}.svg`);
+              if (response.ok) {
+                foundPath = path;
+                break;
+              }
+            } catch (e) {
+              // Continue to next fallback
+            }
+          }
+          
+          if (!foundPath) {
+            console.warn(`SVG not found for ${component} (tried: ${fallbackPaths.map(p => `../svg/${p}.svg`).join(', ')})`);
+            throw new Error(`Failed to fetch SVG for ${component}`);
+          }
+          
+          const svgText = await response.text();
+          const svgContent = parseSvgContent(svgText);
+          
+          // Cache the SVG content
+          setSvgCache(prev => ({
+            ...prev,
+            [component]: svgContent
+          }));
+          
+          return svgContent;
+        } catch (error) {
+          console.error(`Error fetching SVG for ${component}:`, error);
+          if (!errorIcons.includes(component)) {
+            setErrorIcons(prev => [...prev, component]);
+          }
+          return null;
+        }
+      };
+      
+      // Function to parse the SVG content and extract the necessary parts
+      const parseSvgContent = (svgText) => {
+        const viewBoxMatch = svgText.match(/viewBox="([^"]+)"/);
+        const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 24 24';
+        
+        const pathMatch = svgText.match(/<path[^>]*?d="([^"]+)"[^>]*?>/g);
+        const paths = pathMatch ? pathMatch.map(path => {
+          const dMatch = path.match(/d="([^"]+)"/);
+          const fillMatch = path.match(/fill="([^"]+)"/);
+          const strokeMatch = path.match(/stroke="([^"]+)"/);
+          
+          return {
+            d: dMatch ? dMatch[1] : '',
+            fill: fillMatch ? fillMatch[1] : 'currentColor',
+            stroke: strokeMatch ? strokeMatch[1] : 'none'
+          };
+        }) : [];
+        
+        return { viewBox, paths };
+      };
+      
+      const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text).then(() => {
+          setCopied(text);
+          setTimeout(() => setCopied(""), 2000);
+        });
+      };
+      
+      if (loading) {
+        return <div className="container">Loading icons...</div>;
+      }
+      
+      // Create filtered lists
+      const numericIcons = Object.entries(icons.componentToOriginal || {})
+        .filter(([component]) => /^Icon\d/.test(component))
+        .map(([component, original]) => ({ component, original }));
+        
+      const regularIcons = Object.entries(icons.componentToOriginal || {})
+        .filter(([component]) => !/^Icon\d/.test(component))
+        .map(([component, original]) => ({ component, original }))
+        .filter(({ component, original }) => 
+          component.toLowerCase().includes(search.toLowerCase()) || 
+          original.toLowerCase().includes(search.toLowerCase())
+        );
+      
+      // Function to render an SVG
+      const renderSvg = (component) => {
+        const svg = svgCache[component];
+        
+        if (!svg) {
+          return (
+            <div style={{ width: 24, height: 24, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ width: 16, height: 16, border: '2px solid #eee', borderRadius: '50%' }}></div>
+            </div>
+          );
+        }
+        
+        return (
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            viewBox={svg.viewBox} 
+            width="24" 
+            height="24"
+          >
+            {svg.paths.map((path, index) => (
+              <path 
+                key={index} 
+                d={path.d} 
+                fill={path.fill} 
+                stroke={path.stroke}
+              />
+            ))}
+          </svg>
+        );
+      };
+      
+      // Function to render an icon
+      const renderIcon = (component, original) => {
+        const hasError = errorIcons.includes(component);
+        
+        return (
+          <div 
+            key={component} 
+            className="icon-card" 
+            onClick={() => copyToClipboard(`import { ${component} } from '@pixelarticons/react';`)}
+          >
+            <div className="icon-svg">
+              {!hasError ? renderSvg(component) : (
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                  <path d="M12 4a8 8 0 100 16 8 8 0 000-16zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12z" fill="#ccc"/>
+                  <path d="M12 14a1 1 0 011 1v.01a1 1 0 11-2 0V15a1 1 0 011-1zm0-8a1 1 0 00-1 1v4a1 1 0 102 0V7a1 1 0 00-1-1z" fill="#ccc"/>
+                </svg>
+              )}
+            </div>
+            <div className="icon-name">{component}</div>
+            <div className="icon-original">{original}</div>
+            {hasError && (
+              <div className="error-message">SVG not found</div>
+            )}
+          </div>
+        );
+      };
+      
+      return (
+        <div className="container">
+          <h1>Pixelarticons Catalog</h1>
+          
+          <input 
+            type="text" 
+            className="search" 
+            placeholder="Search icons..." 
+            value={search} 
+            onChange={(e) => setSearch(e.target.value)} 
+          />
+          
+          <h2 className="section-title">Numeric Icons (Require Icon Prefix)</h2>
+          <div className="grid">
+            {numericIcons.map(({ component, original }) => renderIcon(component, original))}
+          </div>
+          
+          <h2 className="section-title">Regular Icons</h2>
+          <div className="grid">
+            {regularIcons.map(({ component, original }) => renderIcon(component, original))}
+          </div>
+          
+          {copied && (
+            <div className="copied">
+              Copied: {copied}
+            </div>
+          )}
+        </div>
+      );
+    }
+    
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</body>
+</html>

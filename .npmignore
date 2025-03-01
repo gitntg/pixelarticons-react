@@ -1,3 +1,26 @@
+# Development files
+node_modules/
+src/
+scripts/
+.eslintrc.json
+tsconfig.json
+
+# Editor configs
+.vscode/
+.idea/
+
+# Git files
+.git/
+.gitignore
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build scripts
+*.tsbuildinfo
+
 # pixelarticons specific
 index.html
 .svgtofontrc

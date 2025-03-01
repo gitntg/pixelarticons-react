@@ -1,11 +1,27 @@
 {
-  "name": "pixelarticons",
-  "version": "1.8.1",
-  "description": "Finest handmade pixelart icons.",
-  "main": "index.js",
+  "name": "@nicholuassommer/pixelarticons-react",
+  "version": "1.0.0",
+  "description": "Pixelarticons as React Components - Finest handmade pixelart icons, now, for React.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "svg"
+  ],
+  "sideEffects": false,
   "scripts": {
-    "font": "svgtofont --sources ./svg --output ./fonts",
-    "test": "echo \"Error: no test specified\""
+    "build": "rimraf dist && npm run build:components && npm run build:esm && npm run build:cjs",
+    "build:components": "node --loader ts-node/esm scripts/build.ts",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:webpack": "webpack --config webpack.config.js",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "prepublishOnly": "npm run build",
+    "demo": "npx http-server . -o examples/icon-catalog.html"
   },
   "repository": {
     "type": "git",
@@ -17,7 +33,10 @@
     "icon",
     "icons",
     "iconset",
-    "vector"
+    "vector",
+    "react",
+    "react-component",
+    "typescript"
   ],
   "author": "Gerrit Halfmann",
   "license": "MIT",
@@ -25,8 +44,34 @@
     "url": "https://github.com/halfmage/pixelarticons/issues"
   },
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
   "devDependencies": {
-    "np": "^7.7.0",
-    "svgtofont": "^3.23.1"
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "@svgr/webpack": "^8.1.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "np": "^8.0.4",
+    "rimraf": "^5.0.5",
+    "svgtofont": "^3.23.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
