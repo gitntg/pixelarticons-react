@@ -23,4 +23,3 @@ const CameraAlt = (_a) => {
 };
 exports.CameraAlt = CameraAlt;
 exports.CameraAlt.displayName = 'CameraAlt';
-//# sourceMappingURL=CameraAlt.js.map

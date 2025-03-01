@@ -23,4 +23,3 @@ const Wallet = (_a) => {
 };
 exports.Wallet = Wallet;
 exports.Wallet.displayName = 'Wallet';
-//# sourceMappingURL=Wallet.js.map

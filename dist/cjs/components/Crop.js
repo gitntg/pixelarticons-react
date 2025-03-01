@@ -23,4 +23,3 @@ const Crop = (_a) => {
 };
 exports.Crop = Crop;
 exports.Crop.displayName = 'Crop';
-//# sourceMappingURL=Crop.js.map

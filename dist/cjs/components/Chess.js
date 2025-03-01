@@ -23,4 +23,3 @@ const Chess = (_a) => {
 };
 exports.Chess = Chess;
 exports.Chess.displayName = 'Chess';
-//# sourceMappingURL=Chess.js.map

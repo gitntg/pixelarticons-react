@@ -23,4 +23,3 @@ const Mouse = (_a) => {
 };
 exports.Mouse = Mouse;
 exports.Mouse.displayName = 'Mouse';
-//# sourceMappingURL=Mouse.js.map

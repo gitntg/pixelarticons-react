@@ -16,4 +16,3 @@ export const WarningBox = (_a) => {
         React.createElement("path", { d: "M3 3h16v2H5v14h14v2H3V3zm18 0h-2v18h2V3zM11 15h2v2h-2v-2zm2-8h-2v6h2V7z", fill: "currentColor" })));
 };
 WarningBox.displayName = 'WarningBox';
-//# sourceMappingURL=WarningBox.js.map

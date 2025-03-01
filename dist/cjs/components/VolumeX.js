@@ -23,4 +23,3 @@ const VolumeX = (_a) => {
 };
 exports.VolumeX = VolumeX;
 exports.VolumeX.displayName = 'VolumeX';
-//# sourceMappingURL=VolumeX.js.map

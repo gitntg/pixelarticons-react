@@ -23,4 +23,3 @@ const Bitcoin = (_a) => {
 };
 exports.Bitcoin = Bitcoin;
 exports.Bitcoin.displayName = 'Bitcoin';
-//# sourceMappingURL=Bitcoin.js.map

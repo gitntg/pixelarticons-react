@@ -16,4 +16,3 @@ export const MissedCall = (_a) => {
         React.createElement("path", { d: "M20 6h-4v2h2v2h-2v2h-2v2h-2v2h-2v-2H8v-2H6v-2H4V8H2v2h2v2h2v2h2v2h2v2h2v-2h2v-2h2v-2h2v-2h2v2h2V6h-2z", fill: "currentColor" })));
 };
 MissedCall.displayName = 'MissedCall';
-//# sourceMappingURL=MissedCall.js.map

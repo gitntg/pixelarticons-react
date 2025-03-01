@@ -23,4 +23,3 @@ const FileDelete = (_a) => {
 };
 exports.FileDelete = FileDelete;
 exports.FileDelete.displayName = 'FileDelete';
-//# sourceMappingURL=FileDelete.js.map

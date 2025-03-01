@@ -23,4 +23,3 @@ const Table = (_a) => {
 };
 exports.Table = Table;
 exports.Table.displayName = 'Table';
-//# sourceMappingURL=Table.js.map

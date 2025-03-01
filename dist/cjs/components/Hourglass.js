@@ -23,4 +23,3 @@ const Hourglass = (_a) => {
 };
 exports.Hourglass = Hourglass;
 exports.Hourglass.displayName = 'Hourglass';
-//# sourceMappingURL=Hourglass.js.map

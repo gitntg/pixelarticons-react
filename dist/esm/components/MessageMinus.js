@@ -16,4 +16,3 @@ export const MessageMinus = (_a) => {
         React.createElement("path", { d: "M4 2h18v16H6v2H4v-2h2v-2h14V4H4v18H2V2h2zm12 7H8v2h8V9z", fill: "currentColor" })));
 };
 MessageMinus.displayName = 'MessageMinus';
-//# sourceMappingURL=MessageMinus.js.map

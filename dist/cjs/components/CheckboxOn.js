@@ -23,4 +23,3 @@ const CheckboxOn = (_a) => {
 };
 exports.CheckboxOn = CheckboxOn;
 exports.CheckboxOn.displayName = 'CheckboxOn';
-//# sourceMappingURL=CheckboxOn.js.map

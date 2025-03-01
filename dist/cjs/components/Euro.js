@@ -23,4 +23,3 @@ const Euro = (_a) => {
 };
 exports.Euro = Euro;
 exports.Euro.displayName = 'Euro';
-//# sourceMappingURL=Euro.js.map

@@ -23,4 +23,3 @@ const GitMerge = (_a) => {
 };
 exports.GitMerge = GitMerge;
 exports.GitMerge.displayName = 'GitMerge';
-//# sourceMappingURL=GitMerge.js.map

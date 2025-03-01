@@ -23,4 +23,3 @@ const SunAlt = (_a) => {
 };
 exports.SunAlt = SunAlt;
 exports.SunAlt.displayName = 'SunAlt';
-//# sourceMappingURL=SunAlt.js.map

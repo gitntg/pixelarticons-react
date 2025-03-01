@@ -23,4 +23,3 @@ const FloatRight = (_a) => {
 };
 exports.FloatRight = FloatRight;
 exports.FloatRight.displayName = 'FloatRight';
-//# sourceMappingURL=FloatRight.js.map

@@ -23,4 +23,3 @@ const Bed = (_a) => {
 };
 exports.Bed = Bed;
 exports.Bed.displayName = 'Bed';
-//# sourceMappingURL=Bed.js.map

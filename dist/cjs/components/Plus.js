@@ -23,4 +23,3 @@ const Plus = (_a) => {
 };
 exports.Plus = Plus;
 exports.Plus.displayName = 'Plus';
-//# sourceMappingURL=Plus.js.map

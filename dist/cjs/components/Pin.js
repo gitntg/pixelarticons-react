@@ -23,4 +23,3 @@ const Pin = (_a) => {
 };
 exports.Pin = Pin;
 exports.Pin.displayName = 'Pin';
-//# sourceMappingURL=Pin.js.map

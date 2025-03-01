@@ -23,4 +23,3 @@ const InboxAll = (_a) => {
 };
 exports.InboxAll = InboxAll;
 exports.InboxAll.displayName = 'InboxAll';
-//# sourceMappingURL=InboxAll.js.map

@@ -23,4 +23,3 @@ const MessageFlash = (_a) => {
 };
 exports.MessageFlash = MessageFlash;
 exports.MessageFlash.displayName = 'MessageFlash';
-//# sourceMappingURL=MessageFlash.js.map

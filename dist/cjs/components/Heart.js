@@ -23,4 +23,3 @@ const Heart = (_a) => {
 };
 exports.Heart = Heart;
 exports.Heart.displayName = 'Heart';
-//# sourceMappingURL=Heart.js.map

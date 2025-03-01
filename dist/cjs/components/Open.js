@@ -23,4 +23,3 @@ const Open = (_a) => {
 };
 exports.Open = Open;
 exports.Open.displayName = 'Open';
-//# sourceMappingURL=Open.js.map

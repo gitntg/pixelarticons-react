@@ -23,4 +23,3 @@ const Next = (_a) => {
 };
 exports.Next = Next;
 exports.Next.displayName = 'Next';
-//# sourceMappingURL=Next.js.map

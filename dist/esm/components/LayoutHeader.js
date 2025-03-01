@@ -16,4 +16,3 @@ export const LayoutHeader = (_a) => {
         React.createElement("path", { d: "M2 19h20V5H2v14zm2-2v-6h16v6H4zm16-8H4V7h16v2z", fill: "currentColor" })));
 };
 LayoutHeader.displayName = 'LayoutHeader';
-//# sourceMappingURL=LayoutHeader.js.map

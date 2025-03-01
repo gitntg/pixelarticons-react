@@ -23,4 +23,3 @@ const Lightbulb2 = (_a) => {
 };
 exports.Lightbulb2 = Lightbulb2;
 exports.Lightbulb2.displayName = 'Lightbulb2';
-//# sourceMappingURL=Lightbulb2.js.map

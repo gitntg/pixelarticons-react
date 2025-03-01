@@ -23,4 +23,3 @@ const Icon4g = (_a) => {
 };
 exports.Icon4g = Icon4g;
 exports.Icon4g.displayName = 'Icon4g';
-//# sourceMappingURL=Icon4g.js.map

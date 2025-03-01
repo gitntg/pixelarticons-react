@@ -23,4 +23,3 @@ const Sun = (_a) => {
 };
 exports.Sun = Sun;
 exports.Sun.displayName = 'Sun';
-//# sourceMappingURL=Sun.js.map

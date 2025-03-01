@@ -23,4 +23,3 @@ const Trash = (_a) => {
 };
 exports.Trash = Trash;
 exports.Trash.displayName = 'Trash';
-//# sourceMappingURL=Trash.js.map

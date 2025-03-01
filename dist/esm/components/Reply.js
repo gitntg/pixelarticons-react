@@ -16,4 +16,3 @@ export const Reply = (_a) => {
         React.createElement("path", { d: "M12 19h-2v-2H8v-2H6v-2H4v-2h2V9h2V7h2V5h2v4h8v6h-8v4z", fill: "currentColor" })));
 };
 Reply.displayName = 'Reply';
-//# sourceMappingURL=Reply.js.map

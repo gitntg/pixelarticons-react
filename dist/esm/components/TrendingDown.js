@@ -16,4 +16,3 @@ export const TrendingDown = (_a) => {
         React.createElement("path", { d: "M2 8h2v2h2v2h2v2h2v-2h2v-2h2v2h2v2h2v2h-4v2h8v-8h-2v4h-2v-2h-2v-2h-2V8h-2v2h-2v2H8v-2H6V8H4V6H2v2z", fill: "currentColor" })));
 };
 TrendingDown.displayName = 'TrendingDown';
-//# sourceMappingURL=TrendingDown.js.map

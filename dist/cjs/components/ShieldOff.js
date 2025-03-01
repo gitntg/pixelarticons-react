@@ -23,4 +23,3 @@ const ShieldOff = (_a) => {
 };
 exports.ShieldOff = ShieldOff;
 exports.ShieldOff.displayName = 'ShieldOff';
-//# sourceMappingURL=ShieldOff.js.map

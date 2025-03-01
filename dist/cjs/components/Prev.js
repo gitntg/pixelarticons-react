@@ -23,4 +23,3 @@ const Prev = (_a) => {
 };
 exports.Prev = Prev;
 exports.Prev.displayName = 'Prev';
-//# sourceMappingURL=Prev.js.map

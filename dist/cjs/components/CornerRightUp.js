@@ -23,4 +23,3 @@ const CornerRightUp = (_a) => {
 };
 exports.CornerRightUp = CornerRightUp;
 exports.CornerRightUp.displayName = 'CornerRightUp';
-//# sourceMappingURL=CornerRightUp.js.map

@@ -16,4 +16,3 @@ export const LayoutSidebarLeft = (_a) => {
         React.createElement("path", { d: "M2 5h20v14H2V5zm2 2v10h2V7H4zm4 0v10h12V7H8z", fill: "currentColor" })));
 };
 LayoutSidebarLeft.displayName = 'LayoutSidebarLeft';
-//# sourceMappingURL=LayoutSidebarLeft.js.map

@@ -23,4 +23,3 @@ const AlignLeft = (_a) => {
 };
 exports.AlignLeft = AlignLeft;
 exports.AlignLeft.displayName = 'AlignLeft';
-//# sourceMappingURL=AlignLeft.js.map

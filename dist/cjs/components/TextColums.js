@@ -23,4 +23,3 @@ const TextColums = (_a) => {
 };
 exports.TextColums = TextColums;
 exports.TextColums.displayName = 'TextColums';
-//# sourceMappingURL=TextColums.js.map

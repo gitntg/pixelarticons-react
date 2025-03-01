@@ -16,4 +16,3 @@ export const Server = (_a) => {
         React.createElement("path", { d: "M3 3h18v18H3V3zm2 2v6h14V5H5zm14 8H5v6h14v-6zM7 7h2v2H7V7zm2 8H7v2h2v-2z", fill: "currentColor" })));
 };
 Server.displayName = 'Server';
-//# sourceMappingURL=Server.js.map

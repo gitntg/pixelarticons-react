@@ -23,4 +23,3 @@ const LayoutSidebarRight = (_a) => {
 };
 exports.LayoutSidebarRight = LayoutSidebarRight;
 exports.LayoutSidebarRight.displayName = 'LayoutSidebarRight';
-//# sourceMappingURL=LayoutSidebarRight.js.map

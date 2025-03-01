@@ -23,4 +23,3 @@ const Collapse = (_a) => {
 };
 exports.Collapse = Collapse;
 exports.Collapse.displayName = 'Collapse';
-//# sourceMappingURL=Collapse.js.map

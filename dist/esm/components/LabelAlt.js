@@ -16,4 +16,3 @@ export const LabelAlt = (_a) => {
         React.createElement("path", { d: "M16 5H2v14h14v-2h2v-2h2v-2h2v-2h-2V9h-2V7h-2V5zm0 2v2h2v2h2v2h-2v2h-2v2H4V7h12z", fill: "currentColor" })));
 };
 LabelAlt.displayName = 'LabelAlt';
-//# sourceMappingURL=LabelAlt.js.map

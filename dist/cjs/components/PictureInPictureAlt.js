@@ -23,4 +23,3 @@ const PictureInPictureAlt = (_a) => {
 };
 exports.PictureInPictureAlt = PictureInPictureAlt;
 exports.PictureInPictureAlt.displayName = 'PictureInPictureAlt';
-//# sourceMappingURL=PictureInPictureAlt.js.map

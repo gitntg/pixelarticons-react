@@ -16,4 +16,3 @@ export const ArrowBarRight = (_a) => {
         React.createElement("path", { d: "M18 4v16h2V4h-2zM4 11v2h8v2h-2v2h2v-2h2v-2h2v-2h-2V9h-2V7h-2v2h2v2H4z", fill: "currentColor" })));
 };
 ArrowBarRight.displayName = 'ArrowBarRight';
-//# sourceMappingURL=ArrowBarRight.js.map

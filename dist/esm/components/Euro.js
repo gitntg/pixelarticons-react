@@ -16,4 +16,3 @@ export const Euro = (_a) => {
         React.createElement("path", { d: "M9 4h10v2H9v3h7v2H9v2h7v2H9v3h10v2H7v-5H5v-2h2v-2H5V9h2V4h2z", fill: "currentColor" })));
 };
 Euro.displayName = 'Euro';
-//# sourceMappingURL=Euro.js.map

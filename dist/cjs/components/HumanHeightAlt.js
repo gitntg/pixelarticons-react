@@ -23,4 +23,3 @@ const HumanHeightAlt = (_a) => {
 };
 exports.HumanHeightAlt = HumanHeightAlt;
 exports.HumanHeightAlt.displayName = 'HumanHeightAlt';
-//# sourceMappingURL=HumanHeightAlt.js.map

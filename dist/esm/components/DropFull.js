@@ -16,4 +16,3 @@ export const DropFull = (_a) => {
         React.createElement("path", { d: "M11 2h2v2h2v4h2v4h2v6h-2v2h-2v2H9v-2H7v-2H5v-6h2V8h2V4h2V2z", fill: "currentColor" })));
 };
 DropFull.displayName = 'DropFull';
-//# sourceMappingURL=DropFull.js.map

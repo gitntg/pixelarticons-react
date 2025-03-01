@@ -23,4 +23,3 @@ const DropArea = (_a) => {
 };
 exports.DropArea = DropArea;
 exports.DropArea.displayName = 'DropArea';
-//# sourceMappingURL=DropArea.js.map

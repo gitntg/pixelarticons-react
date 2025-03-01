@@ -23,4 +23,3 @@ const Forwardburger = (_a) => {
 };
 exports.Forwardburger = Forwardburger;
 exports.Forwardburger.displayName = 'Forwardburger';
-//# sourceMappingURL=Forwardburger.js.map

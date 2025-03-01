@@ -23,4 +23,3 @@ const Percent = (_a) => {
 };
 exports.Percent = Percent;
 exports.Percent.displayName = 'Percent';
-//# sourceMappingURL=Percent.js.map

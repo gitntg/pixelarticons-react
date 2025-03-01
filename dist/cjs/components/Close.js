@@ -23,4 +23,3 @@ const Close = (_a) => {
 };
 exports.Close = Close;
 exports.Close.displayName = 'Close';
-//# sourceMappingURL=Close.js.map

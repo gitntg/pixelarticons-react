@@ -23,4 +23,3 @@ const ScrollVertical = (_a) => {
 };
 exports.ScrollVertical = ScrollVertical;
 exports.ScrollVertical.displayName = 'ScrollVertical';
-//# sourceMappingURL=ScrollVertical.js.map

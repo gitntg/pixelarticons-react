@@ -16,4 +16,3 @@ export const VolumeMinus = (_a) => {
         React.createElement("path", { d: "M12 2h-2v2H8v2H6v2H2v8h4v2h2v2h2v2h2V2zM8 18v-2H6v-2H4v-4h2V8h2V6h2v12H8zm14-7h-8v2h8v-2z", fill: "currentColor" })));
 };
 VolumeMinus.displayName = 'VolumeMinus';
-//# sourceMappingURL=VolumeMinus.js.map

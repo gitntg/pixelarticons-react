@@ -23,4 +23,3 @@ const ImageMultiple = (_a) => {
 };
 exports.ImageMultiple = ImageMultiple;
 exports.ImageMultiple.displayName = 'ImageMultiple';
-//# sourceMappingURL=ImageMultiple.js.map

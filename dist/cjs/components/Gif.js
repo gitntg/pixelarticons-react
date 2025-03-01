@@ -23,4 +23,3 @@ const Gif = (_a) => {
 };
 exports.Gif = Gif;
 exports.Gif.displayName = 'Gif';
-//# sourceMappingURL=Gif.js.map

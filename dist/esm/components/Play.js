@@ -16,4 +16,3 @@ export const Play = (_a) => {
         React.createElement("path", { d: "M10 20H8V4h2v2h2v3h2v2h2v2h-2v2h-2v3h-2v2z", fill: "currentColor" })));
 };
 Play.displayName = 'Play';
-//# sourceMappingURL=Play.js.map

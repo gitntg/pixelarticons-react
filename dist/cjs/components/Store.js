@@ -23,4 +23,3 @@ const Store = (_a) => {
 };
 exports.Store = Store;
 exports.Store.displayName = 'Store';
-//# sourceMappingURL=Store.js.map

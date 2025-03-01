@@ -23,4 +23,3 @@ const MessageDelete = (_a) => {
 };
 exports.MessageDelete = MessageDelete;
 exports.MessageDelete.displayName = 'MessageDelete';
-//# sourceMappingURL=MessageDelete.js.map

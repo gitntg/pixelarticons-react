@@ -16,4 +16,3 @@ export const ViewCol = (_a) => {
         React.createElement("path", { d: "M2 5h20v14H2V5zm2 2v10h4V7H4zm6 0v10h4V7h-4zm6 0v10h4V7h-4z", fill: "currentColor" })));
 };
 ViewCol.displayName = 'ViewCol';
-//# sourceMappingURL=ViewCol.js.map

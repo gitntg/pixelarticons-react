@@ -16,4 +16,3 @@ export const Battery = (_a) => {
         React.createElement("path", { d: "M4 5H2v14h18v-4h2V9h-2V5H4zm14 2v10H4V7h14z", fill: "currentColor" })));
 };
 Battery.displayName = 'Battery';
-//# sourceMappingURL=Battery.js.map

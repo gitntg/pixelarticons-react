@@ -16,4 +16,3 @@ export const AddBox = (_a) => {
         React.createElement("path", { d: "M3 3h18v18H3V3zm16 16V5H5v14h14zm-6-8h4v2h-4v4h-2v-4H7v-2h4V7h2v4z", fill: "currentColor" })));
 };
 AddBox.displayName = 'AddBox';
-//# sourceMappingURL=AddBox.js.map

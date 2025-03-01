@@ -23,4 +23,3 @@ const Download = (_a) => {
 };
 exports.Download = Download;
 exports.Download.displayName = 'Download';
-//# sourceMappingURL=Download.js.map

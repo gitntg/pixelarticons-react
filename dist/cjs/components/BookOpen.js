@@ -23,4 +23,3 @@ const BookOpen = (_a) => {
 };
 exports.BookOpen = BookOpen;
 exports.BookOpen.displayName = 'BookOpen';
-//# sourceMappingURL=BookOpen.js.map

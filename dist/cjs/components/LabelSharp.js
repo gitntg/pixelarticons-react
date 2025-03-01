@@ -23,4 +23,3 @@ const LabelSharp = (_a) => {
 };
 exports.LabelSharp = LabelSharp;
 exports.LabelSharp.displayName = 'LabelSharp';
-//# sourceMappingURL=LabelSharp.js.map

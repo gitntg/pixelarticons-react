@@ -23,4 +23,3 @@ const FrameMinus = (_a) => {
 };
 exports.FrameMinus = FrameMinus;
 exports.FrameMinus.displayName = 'FrameMinus';
-//# sourceMappingURL=FrameMinus.js.map

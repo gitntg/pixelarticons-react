@@ -23,4 +23,3 @@ const Bullseye = (_a) => {
 };
 exports.Bullseye = Bullseye;
 exports.Bullseye.displayName = 'Bullseye';
-//# sourceMappingURL=Bullseye.js.map

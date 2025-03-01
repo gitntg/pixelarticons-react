@@ -23,4 +23,3 @@ const LayoutColumns = (_a) => {
 };
 exports.LayoutColumns = LayoutColumns;
 exports.LayoutColumns.displayName = 'LayoutColumns';
-//# sourceMappingURL=LayoutColumns.js.map

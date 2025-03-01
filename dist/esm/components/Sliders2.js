@@ -16,4 +16,3 @@ export const Sliders2 = (_a) => {
         React.createElement("path", { d: "M3 8h4m0 0V6h4v2M7 8v2h4V8m0 0h10M3 16h10m0 0v-2h4v2m-4 0v2h4v-2m0 0h4", stroke: "currentColor", "stroke-width": "2", "stroke-linecap": "square" })));
 };
 Sliders2.displayName = 'Sliders2';
-//# sourceMappingURL=Sliders2.js.map

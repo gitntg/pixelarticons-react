@@ -16,4 +16,3 @@ export const Scale = (_a) => {
         React.createElement("path", { d: "M21 3h-8v2h4v2h2v4h2V3zm-4 4h-2v2h-2v2h2V9h2V7zm-8 8h2v-2H9v2H7v2h2v-2zm-4-2v4h2v2H5h6v2H3v-8h2z", fill: "currentColor" })));
 };
 Scale.displayName = 'Scale';
-//# sourceMappingURL=Scale.js.map

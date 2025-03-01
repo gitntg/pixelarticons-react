@@ -16,4 +16,3 @@ export const LayoutAlignBottom = (_a) => {
         React.createElement("path", { d: "M16 4H8v12h8V4zm-6 10V6h4v8h-4zm10 6v-2H4v2h16z", fill: "currentColor" })));
 };
 LayoutAlignBottom.displayName = 'LayoutAlignBottom';
-//# sourceMappingURL=LayoutAlignBottom.js.map

@@ -23,4 +23,3 @@ const CloudSun = (_a) => {
 };
 exports.CloudSun = CloudSun;
 exports.CloudSun.displayName = 'CloudSun';
-//# sourceMappingURL=CloudSun.js.map

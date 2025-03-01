@@ -23,4 +23,3 @@ const Sliders2 = (_a) => {
 };
 exports.Sliders2 = Sliders2;
 exports.Sliders2.displayName = 'Sliders2';
-//# sourceMappingURL=Sliders2.js.map

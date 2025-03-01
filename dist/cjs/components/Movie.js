@@ -23,4 +23,3 @@ const Movie = (_a) => {
 };
 exports.Movie = Movie;
 exports.Movie.displayName = 'Movie';
-//# sourceMappingURL=Movie.js.map

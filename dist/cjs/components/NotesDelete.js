@@ -23,4 +23,3 @@ const NotesDelete = (_a) => {
 };
 exports.NotesDelete = NotesDelete;
 exports.NotesDelete.displayName = 'NotesDelete';
-//# sourceMappingURL=NotesDelete.js.map

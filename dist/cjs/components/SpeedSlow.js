@@ -23,4 +23,3 @@ const SpeedSlow = (_a) => {
 };
 exports.SpeedSlow = SpeedSlow;
 exports.SpeedSlow.displayName = 'SpeedSlow';
-//# sourceMappingURL=SpeedSlow.js.map

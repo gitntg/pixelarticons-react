@@ -23,4 +23,3 @@ const CalendarRemove = (_a) => {
 };
 exports.CalendarRemove = CalendarRemove;
 exports.CalendarRemove.displayName = 'CalendarRemove';
-//# sourceMappingURL=CalendarRemove.js.map

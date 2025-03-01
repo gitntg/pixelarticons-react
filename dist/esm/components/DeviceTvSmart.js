@@ -16,4 +16,3 @@ export const DeviceTvSmart = (_a) => {
         React.createElement("path", { d: "M4 4h18v14h-6v2H8v-2H2V4h2zm16 12V6H4v10h16z", fill: "currentColor" })));
 };
 DeviceTvSmart.displayName = 'DeviceTvSmart';
-//# sourceMappingURL=DeviceTvSmart.js.map

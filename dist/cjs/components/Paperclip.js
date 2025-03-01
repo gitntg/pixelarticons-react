@@ -23,4 +23,3 @@ const Paperclip = (_a) => {
 };
 exports.Paperclip = Paperclip;
 exports.Paperclip.displayName = 'Paperclip';
-//# sourceMappingURL=Paperclip.js.map

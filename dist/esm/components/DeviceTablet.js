@@ -16,4 +16,3 @@ export const DeviceTablet = (_a) => {
         React.createElement("path", { d: "M6 2H4v20h16V2H6zm12 2v16H6V4h12zm-5 12h-2v2h2v-2z", fill: "currentColor" })));
 };
 DeviceTablet.displayName = 'DeviceTablet';
-//# sourceMappingURL=DeviceTablet.js.map

@@ -23,4 +23,3 @@ const CalendarArrowLeft = (_a) => {
 };
 exports.CalendarArrowLeft = CalendarArrowLeft;
 exports.CalendarArrowLeft.displayName = 'CalendarArrowLeft';
-//# sourceMappingURL=CalendarArrowLeft.js.map

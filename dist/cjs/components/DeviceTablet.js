@@ -23,4 +23,3 @@ const DeviceTablet = (_a) => {
 };
 exports.DeviceTablet = DeviceTablet;
 exports.DeviceTablet.displayName = 'DeviceTablet';
-//# sourceMappingURL=DeviceTablet.js.map

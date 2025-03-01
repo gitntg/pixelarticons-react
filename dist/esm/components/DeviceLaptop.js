@@ -16,4 +16,3 @@ export const DeviceLaptop = (_a) => {
         React.createElement("path", { d: "M6 4H4v12h16V4H6zm12 2v8H6V6h12zm4 12H2v2h20v-2z", fill: "currentColor" })));
 };
 DeviceLaptop.displayName = 'DeviceLaptop';
-//# sourceMappingURL=DeviceLaptop.js.map

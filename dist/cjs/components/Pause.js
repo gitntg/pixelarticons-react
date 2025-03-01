@@ -23,4 +23,3 @@ const Pause = (_a) => {
 };
 exports.Pause = Pause;
 exports.Pause.displayName = 'Pause';
-//# sourceMappingURL=Pause.js.map

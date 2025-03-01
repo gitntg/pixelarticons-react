@@ -16,4 +16,3 @@ export const Book = (_a) => {
         React.createElement("path", { d: "M8 2h12v20H4V2h4zm4 8h-2v2H8V4H6v16h12V4h-4v8h-2v-2z", fill: "currentColor" })));
 };
 Book.displayName = 'Book';
-//# sourceMappingURL=Book.js.map

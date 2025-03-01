@@ -23,4 +23,3 @@ const MessageImage = (_a) => {
 };
 exports.MessageImage = MessageImage;
 exports.MessageImage.displayName = 'MessageImage';
-//# sourceMappingURL=MessageImage.js.map

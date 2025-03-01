@@ -23,4 +23,3 @@ const MoodHappy = (_a) => {
 };
 exports.MoodHappy = MoodHappy;
 exports.MoodHappy.displayName = 'MoodHappy';
-//# sourceMappingURL=MoodHappy.js.map

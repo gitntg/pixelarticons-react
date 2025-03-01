@@ -18,4 +18,3 @@ const Icon_1 = require("./Icon");
 __exportStar(require("./icons"), exports);
 __exportStar(require("./Icon"), exports);
 exports.default = Icon_1.Icon;
-//# sourceMappingURL=index.js.map

@@ -16,4 +16,3 @@ export const Minus = (_a) => {
         React.createElement("path", { fill: "currentColor", d: "M4 11h16v2H4z" })));
 };
 Minus.displayName = 'Minus';
-//# sourceMappingURL=Minus.js.map

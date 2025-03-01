@@ -23,4 +23,3 @@ const MailMultiple = (_a) => {
 };
 exports.MailMultiple = MailMultiple;
 exports.MailMultiple.displayName = 'MailMultiple';
-//# sourceMappingURL=MailMultiple.js.map

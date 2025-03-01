@@ -23,4 +23,3 @@ const Check = (_a) => {
 };
 exports.Check = Check;
 exports.Check.displayName = 'Check';
-//# sourceMappingURL=Check.js.map

@@ -23,4 +23,3 @@ const Teach = (_a) => {
 };
 exports.Teach = Teach;
 exports.Teach.displayName = 'Teach';
-//# sourceMappingURL=Teach.js.map

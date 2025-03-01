@@ -16,4 +16,3 @@ export const Unlink = (_a) => {
         React.createElement("path", { d: "M13 4h-2v16h2V4zM4 6h5v2H4v8h5v2H2V6h2zm11 0h7v12h-7v-2h5V8h-5V6z", fill: "currentColor" })));
 };
 Unlink.displayName = 'Unlink';
-//# sourceMappingURL=Unlink.js.map

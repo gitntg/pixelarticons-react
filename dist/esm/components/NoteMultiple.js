@@ -16,4 +16,3 @@ export const NoteMultiple = (_a) => {
         React.createElement("path", { d: "M21 6H7v16h8v-2h2v-2h-2v-2h2v2h2v-2h2V6zM9 20V8h10v6h-6v6H9zm-6-2h2V4h12V2H3v16z", fill: "currentColor" })));
 };
 NoteMultiple.displayName = 'NoteMultiple';
-//# sourceMappingURL=NoteMultiple.js.map

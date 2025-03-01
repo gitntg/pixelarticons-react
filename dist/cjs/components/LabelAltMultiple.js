@@ -23,4 +23,3 @@ const LabelAltMultiple = (_a) => {
 };
 exports.LabelAltMultiple = LabelAltMultiple;
 exports.LabelAltMultiple.displayName = 'LabelAltMultiple';
-//# sourceMappingURL=LabelAltMultiple.js.map

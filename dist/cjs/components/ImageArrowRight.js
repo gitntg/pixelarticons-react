@@ -23,4 +23,3 @@ const ImageArrowRight = (_a) => {
 };
 exports.ImageArrowRight = ImageArrowRight;
 exports.ImageArrowRight.displayName = 'ImageArrowRight';
-//# sourceMappingURL=ImageArrowRight.js.map

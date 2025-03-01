@@ -16,4 +16,3 @@ export const CornerLeftUp = (_a) => {
         React.createElement("path", { d: "M8 18V8H6V6h2V4h2v2h2v2h-2v10h10v2H8v-2zm4-10h2v2h-2V8zM6 8H4v2h2V8z", fill: "currentColor" })));
 };
 CornerLeftUp.displayName = 'CornerLeftUp';
-//# sourceMappingURL=CornerLeftUp.js.map

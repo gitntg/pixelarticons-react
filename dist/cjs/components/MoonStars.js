@@ -23,4 +23,3 @@ const MoonStars = (_a) => {
 };
 exports.MoonStars = MoonStars;
 exports.MoonStars.displayName = 'MoonStars';
-//# sourceMappingURL=MoonStars.js.map

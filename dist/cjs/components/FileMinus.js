@@ -23,4 +23,3 @@ const FileMinus = (_a) => {
 };
 exports.FileMinus = FileMinus;
 exports.FileMinus.displayName = 'FileMinus';
-//# sourceMappingURL=FileMinus.js.map

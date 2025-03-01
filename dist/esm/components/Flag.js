@@ -16,4 +16,3 @@ export const Flag = (_a) => {
         React.createElement("path", { d: "M3 2h10v2h8v14H11v-2H5v6H3V2zm2 12h8v2h6V6h-8V4H5v10z", fill: "currentColor" })));
 };
 Flag.displayName = 'Flag';
-//# sourceMappingURL=Flag.js.map

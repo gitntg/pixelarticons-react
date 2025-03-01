@@ -23,4 +23,3 @@ const MessageText = (_a) => {
 };
 exports.MessageText = MessageText;
 exports.MessageText.displayName = 'MessageText';
-//# sourceMappingURL=MessageText.js.map

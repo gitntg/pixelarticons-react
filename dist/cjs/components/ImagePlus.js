@@ -23,4 +23,3 @@ const ImagePlus = (_a) => {
 };
 exports.ImagePlus = ImagePlus;
 exports.ImagePlus.displayName = 'ImagePlus';
-//# sourceMappingURL=ImagePlus.js.map

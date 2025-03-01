@@ -23,4 +23,3 @@ const Label = (_a) => {
 };
 exports.Label = Label;
 exports.Label.displayName = 'Label';
-//# sourceMappingURL=Label.js.map

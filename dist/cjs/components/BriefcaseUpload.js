@@ -23,4 +23,3 @@ const BriefcaseUpload = (_a) => {
 };
 exports.BriefcaseUpload = BriefcaseUpload;
 exports.BriefcaseUpload.displayName = 'BriefcaseUpload';
-//# sourceMappingURL=BriefcaseUpload.js.map

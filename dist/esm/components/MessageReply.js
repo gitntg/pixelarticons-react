@@ -16,4 +16,3 @@ export const MessageReply = (_a) => {
         React.createElement("path", { d: "M4 2h18v20h-2V4H4v12h14v2h2v2h-2v-2H2V2h2z", fill: "currentColor" })));
 };
 MessageReply.displayName = 'MessageReply';
-//# sourceMappingURL=MessageReply.js.map

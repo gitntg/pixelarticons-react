@@ -16,4 +16,3 @@ export const CardStack = (_a) => {
         React.createElement("path", { d: "M4 4h18v12H2V4h2zm16 10V6H4v8h16zm2 4H2v2h20v-2z", fill: "currentColor" })));
 };
 CardStack.displayName = 'CardStack';
-//# sourceMappingURL=CardStack.js.map

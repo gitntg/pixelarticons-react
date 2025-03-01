@@ -23,4 +23,3 @@ const Mastodon = (_a) => {
 };
 exports.Mastodon = Mastodon;
 exports.Mastodon.displayName = 'Mastodon';
-//# sourceMappingURL=Mastodon.js.map

@@ -16,4 +16,3 @@ export const AddRow = (_a) => {
         React.createElement("path", { d: "M4 10V2H2v10h20V2h-2v8h-4V2h-2v8h-4V2H8v8H4zm9 9v3h-2v-3H8v-2h3v-3h2v3h3v2h-3z", fill: "currentColor" })));
 };
 AddRow.displayName = 'AddRow';
-//# sourceMappingURL=AddRow.js.map

@@ -23,4 +23,3 @@ const File = (_a) => {
 };
 exports.File = File;
 exports.File.displayName = 'File';
-//# sourceMappingURL=File.js.map

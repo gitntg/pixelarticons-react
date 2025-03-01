@@ -16,4 +16,3 @@ export const AlignLeft = (_a) => {
         React.createElement("path", { d: "M20 5H4v2h16V5zm-8 4H4v2h8V9zm8 4v2H4v-2h16zm-8 4H4v2h8v-2z", fill: "currentColor" })));
 };
 AlignLeft.displayName = 'AlignLeft';
-//# sourceMappingURL=AlignLeft.js.map

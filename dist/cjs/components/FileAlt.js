@@ -23,4 +23,3 @@ const FileAlt = (_a) => {
 };
 exports.FileAlt = FileAlt;
 exports.FileAlt.displayName = 'FileAlt';
-//# sourceMappingURL=FileAlt.js.map

@@ -23,4 +23,3 @@ const Truck = (_a) => {
 };
 exports.Truck = Truck;
 exports.Truck.displayName = 'Truck';
-//# sourceMappingURL=Truck.js.map

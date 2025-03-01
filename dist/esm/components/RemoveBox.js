@@ -16,4 +16,3 @@ export const RemoveBox = (_a) => {
         React.createElement("path", { d: "M5 3H3v18h18V3H5zm14 2v14H5V5h14zm-3 6H8v2h8v-2z", fill: "currentColor" })));
 };
 RemoveBox.displayName = 'RemoveBox';
-//# sourceMappingURL=RemoveBox.js.map

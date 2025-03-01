@@ -23,4 +23,3 @@ const MailFlash = (_a) => {
 };
 exports.MailFlash = MailFlash;
 exports.MailFlash.displayName = 'MailFlash';
-//# sourceMappingURL=MailFlash.js.map

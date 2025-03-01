@@ -16,4 +16,3 @@ export const Kanban = (_a) => {
         React.createElement("path", { d: "M21 3H3v18h18V3zM5 19V5h14v14H5zM9 7H7v8h2V7zm2 0h2v4h-2V7zm6 0h-2v10h2V7z", fill: "currentColor" })));
 };
 Kanban.displayName = 'Kanban';
-//# sourceMappingURL=Kanban.js.map

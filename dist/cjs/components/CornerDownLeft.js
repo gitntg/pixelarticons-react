@@ -23,4 +23,3 @@ const CornerDownLeft = (_a) => {
 };
 exports.CornerDownLeft = CornerDownLeft;
 exports.CornerDownLeft.displayName = 'CornerDownLeft';
-//# sourceMappingURL=CornerDownLeft.js.map

@@ -33,4 +33,3 @@ function Icon(_a) {
     return react_1.default.createElement(IconComponent, Object.assign({ size: size, className: className }, props));
 }
 Icon.displayName = 'Icon';
-//# sourceMappingURL=Icon.js.map

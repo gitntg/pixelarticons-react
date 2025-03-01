@@ -16,4 +16,3 @@ export const PictureInPicture = (_a) => {
         React.createElement("path", { d: "M2 4h20v16H2V4zm2 2v12h16V6H4zm6 2h8v6h-8V8zm2 2v2h4v-2h-4z", fill: "currentColor" })));
 };
 PictureInPicture.displayName = 'PictureInPicture';
-//# sourceMappingURL=PictureInPicture.js.map

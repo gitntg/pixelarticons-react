@@ -23,4 +23,3 @@ const ImageDelete = (_a) => {
 };
 exports.ImageDelete = ImageDelete;
 exports.ImageDelete.displayName = 'ImageDelete';
-//# sourceMappingURL=ImageDelete.js.map

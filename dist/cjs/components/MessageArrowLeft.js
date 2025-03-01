@@ -23,4 +23,3 @@ const MessageArrowLeft = (_a) => {
 };
 exports.MessageArrowLeft = MessageArrowLeft;
 exports.MessageArrowLeft.displayName = 'MessageArrowLeft';
-//# sourceMappingURL=MessageArrowLeft.js.map

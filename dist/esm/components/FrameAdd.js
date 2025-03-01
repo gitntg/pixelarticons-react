@@ -16,4 +16,3 @@ export const FrameAdd = (_a) => {
         React.createElement("path", { d: "M2 3h20v18H2V3zm18 16V7H4v12h16zm-7-7h3v2h-3v3h-2v-3H8v-2h3V9h2v3z", fill: "currentColor" })));
 };
 FrameAdd.displayName = 'FrameAdd';
-//# sourceMappingURL=FrameAdd.js.map

@@ -23,4 +23,3 @@ const Reload = (_a) => {
 };
 exports.Reload = Reload;
 exports.Reload.displayName = 'Reload';
-//# sourceMappingURL=Reload.js.map

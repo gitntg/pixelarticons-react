@@ -23,4 +23,3 @@ const TrashAlt = (_a) => {
 };
 exports.TrashAlt = TrashAlt;
 exports.TrashAlt.displayName = 'TrashAlt';
-//# sourceMappingURL=TrashAlt.js.map

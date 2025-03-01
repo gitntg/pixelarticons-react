@@ -23,4 +23,3 @@ const AddBoxMultiple = (_a) => {
 };
 exports.AddBoxMultiple = AddBoxMultiple;
 exports.AddBoxMultiple.displayName = 'AddBoxMultiple';
-//# sourceMappingURL=AddBoxMultiple.js.map

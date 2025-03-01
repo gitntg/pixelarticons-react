@@ -16,4 +16,3 @@ export const ToggleLeft = (_a) => {
         React.createElement("path", { d: "M4 5h16v2H4V5zm0 12H2V7h2v10zm16 0v2H4v-2h16zm0 0h2V7h-2v10zM10 9H6v6h4V9z", fill: "currentColor" })));
 };
 ToggleLeft.displayName = 'ToggleLeft';
-//# sourceMappingURL=ToggleLeft.js.map

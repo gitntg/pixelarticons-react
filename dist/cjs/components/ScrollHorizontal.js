@@ -23,4 +23,3 @@ const ScrollHorizontal = (_a) => {
 };
 exports.ScrollHorizontal = ScrollHorizontal;
 exports.ScrollHorizontal.displayName = 'ScrollHorizontal';
-//# sourceMappingURL=ScrollHorizontal.js.map

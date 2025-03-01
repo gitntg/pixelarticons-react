@@ -23,4 +23,3 @@ const Cake = (_a) => {
 };
 exports.Cake = Cake;
 exports.Cake.displayName = 'Cake';
-//# sourceMappingURL=Cake.js.map

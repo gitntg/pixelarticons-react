@@ -16,4 +16,3 @@ export const AlignCenter = (_a) => {
         React.createElement("path", { d: "M20 5H4v2h16V5zm-4 4H8v2h8V9zM4 13h16v2H4v-2zm12 4H8v2h8v-2z", fill: "currentColor" })));
 };
 AlignCenter.displayName = 'AlignCenter';
-//# sourceMappingURL=AlignCenter.js.map

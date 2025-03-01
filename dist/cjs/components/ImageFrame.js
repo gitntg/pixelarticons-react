@@ -23,4 +23,3 @@ const ImageFrame = (_a) => {
 };
 exports.ImageFrame = ImageFrame;
 exports.ImageFrame.displayName = 'ImageFrame';
-//# sourceMappingURL=ImageFrame.js.map

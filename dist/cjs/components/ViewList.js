@@ -23,4 +23,3 @@ const ViewList = (_a) => {
 };
 exports.ViewList = ViewList;
 exports.ViewList.displayName = 'ViewList';
-//# sourceMappingURL=ViewList.js.map

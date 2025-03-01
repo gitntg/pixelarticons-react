@@ -23,4 +23,3 @@ const ArrowDownBox = (_a) => {
 };
 exports.ArrowDownBox = ArrowDownBox;
 exports.ArrowDownBox.displayName = 'ArrowDownBox';
-//# sourceMappingURL=ArrowDownBox.js.map

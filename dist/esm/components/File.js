@@ -16,4 +16,3 @@ export const File = (_a) => {
         React.createElement("path", { d: "M3 22h18V8h-2V6h-2v2h-2V6h2V4h-2V2H3v20zm2-2V4h8v6h6v10H5z", fill: "currentColor" })));
 };
 File.displayName = 'File';
-//# sourceMappingURL=File.js.map

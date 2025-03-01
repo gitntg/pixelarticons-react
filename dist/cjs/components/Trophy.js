@@ -23,4 +23,3 @@ const Trophy = (_a) => {
 };
 exports.Trophy = Trophy;
 exports.Trophy.displayName = 'Trophy';
-//# sourceMappingURL=Trophy.js.map

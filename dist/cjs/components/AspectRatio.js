@@ -23,4 +23,3 @@ const AspectRatio = (_a) => {
 };
 exports.AspectRatio = AspectRatio;
 exports.AspectRatio.displayName = 'AspectRatio';
-//# sourceMappingURL=AspectRatio.js.map

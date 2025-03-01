@@ -23,4 +23,3 @@ const AlignJustify = (_a) => {
 };
 exports.AlignJustify = AlignJustify;
 exports.AlignJustify.displayName = 'AlignJustify';
-//# sourceMappingURL=AlignJustify.js.map

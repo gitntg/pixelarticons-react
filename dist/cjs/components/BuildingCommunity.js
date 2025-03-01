@@ -23,4 +23,3 @@ const BuildingCommunity = (_a) => {
 };
 exports.BuildingCommunity = BuildingCommunity;
 exports.BuildingCommunity.displayName = 'BuildingCommunity';
-//# sourceMappingURL=BuildingCommunity.js.map

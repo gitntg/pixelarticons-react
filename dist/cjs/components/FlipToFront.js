@@ -23,4 +23,3 @@ const FlipToFront = (_a) => {
 };
 exports.FlipToFront = FlipToFront;
 exports.FlipToFront.displayName = 'FlipToFront';
-//# sourceMappingURL=FlipToFront.js.map

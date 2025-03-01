@@ -23,4 +23,3 @@ const Switch = (_a) => {
 };
 exports.Switch = Switch;
 exports.Switch.displayName = 'Switch';
-//# sourceMappingURL=Switch.js.map

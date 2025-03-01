@@ -16,4 +16,3 @@ export const LayoutAlignTop = (_a) => {
         React.createElement("path", { d: "M16 20H8V8h8v12zm-6-10v8h4v-8h-4zm10-6v2H4V4h16z", fill: "currentColor" })));
 };
 LayoutAlignTop.displayName = 'LayoutAlignTop';
-//# sourceMappingURL=LayoutAlignTop.js.map

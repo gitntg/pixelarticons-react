@@ -23,4 +23,3 @@ const CreditCardMinus = (_a) => {
 };
 exports.CreditCardMinus = CreditCardMinus;
 exports.CreditCardMinus.displayName = 'CreditCardMinus';
-//# sourceMappingURL=CreditCardMinus.js.map

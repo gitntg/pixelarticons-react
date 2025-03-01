@@ -23,4 +23,3 @@ const Move = (_a) => {
 };
 exports.Move = Move;
 exports.Move.displayName = 'Move';
-//# sourceMappingURL=Move.js.map

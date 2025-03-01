@@ -23,4 +23,3 @@ const AddCol = (_a) => {
 };
 exports.AddCol = AddCol;
 exports.AddCol.displayName = 'AddCol';
-//# sourceMappingURL=AddCol.js.map

@@ -23,4 +23,3 @@ const List = (_a) => {
 };
 exports.List = List;
 exports.List.displayName = 'List';
-//# sourceMappingURL=List.js.map

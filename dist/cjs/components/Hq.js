@@ -23,4 +23,3 @@ const Hq = (_a) => {
 };
 exports.Hq = Hq;
 exports.Hq.displayName = 'Hq';
-//# sourceMappingURL=Hq.js.map

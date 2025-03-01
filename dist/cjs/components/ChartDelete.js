@@ -23,4 +23,3 @@ const ChartDelete = (_a) => {
 };
 exports.ChartDelete = ChartDelete;
 exports.ChartDelete.displayName = 'ChartDelete';
-//# sourceMappingURL=ChartDelete.js.map

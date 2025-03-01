@@ -23,4 +23,3 @@ const Tournament = (_a) => {
 };
 exports.Tournament = Tournament;
 exports.Tournament.displayName = 'Tournament';
-//# sourceMappingURL=Tournament.js.map

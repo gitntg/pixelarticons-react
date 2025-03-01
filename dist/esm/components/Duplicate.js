@@ -16,4 +16,3 @@ export const Duplicate = (_a) => {
         React.createElement("path", { d: "M5 3h12v4h4v14H7v-4H3V3h2zm10 4V5H5v10h2V7h8zM9 17v2h10V9H9v8z", fill: "currentColor" })));
 };
 Duplicate.displayName = 'Duplicate';
-//# sourceMappingURL=Duplicate.js.map

@@ -16,4 +16,3 @@ export const LayoutDistributeVertical = (_a) => {
         React.createElement("path", { d: "M20 6V4H4v2h16zm0 14v-2H4v2h16zM17 8v8h-2V8h2zm-8 6v-4h6V8H7v8h8v-2H9z", fill: "currentColor" })));
 };
 LayoutDistributeVertical.displayName = 'LayoutDistributeVertical';
-//# sourceMappingURL=LayoutDistributeVertical.js.map

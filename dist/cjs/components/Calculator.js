@@ -23,4 +23,3 @@ const Calculator = (_a) => {
 };
 exports.Calculator = Calculator;
 exports.Calculator.displayName = 'Calculator';
-//# sourceMappingURL=Calculator.js.map

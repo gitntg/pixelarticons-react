@@ -23,4 +23,3 @@ const ChartMinus = (_a) => {
 };
 exports.ChartMinus = ChartMinus;
 exports.ChartMinus.displayName = 'ChartMinus';
-//# sourceMappingURL=ChartMinus.js.map

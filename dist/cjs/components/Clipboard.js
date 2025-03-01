@@ -23,4 +23,3 @@ const Clipboard = (_a) => {
 };
 exports.Clipboard = Clipboard;
 exports.Clipboard.displayName = 'Clipboard';
-//# sourceMappingURL=Clipboard.js.map

@@ -23,4 +23,3 @@ const CoffeeAlt = (_a) => {
 };
 exports.CoffeeAlt = CoffeeAlt;
 exports.CoffeeAlt.displayName = 'CoffeeAlt';
-//# sourceMappingURL=CoffeeAlt.js.map

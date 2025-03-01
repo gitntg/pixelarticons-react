@@ -16,4 +16,3 @@ export const MessageArrowLeft = (_a) => {
         React.createElement("path", { d: "M4 2h18v12h-2V4H4v18H2V2h2zm2 14h4v2H6v2H4v-2h2v-2zm16 0h-6v-2h2v-2h-2v2h-2v2h-2v2h2v2h2v2h2v-2h-2v-2h6v-2z", fill: "currentColor" })));
 };
 MessageArrowLeft.displayName = 'MessageArrowLeft';
-//# sourceMappingURL=MessageArrowLeft.js.map

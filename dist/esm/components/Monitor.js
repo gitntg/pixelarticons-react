@@ -16,4 +16,3 @@ export const Monitor = (_a) => {
         React.createElement("path", { d: "M20 3H2v14h8v2H8v2h8v-2h-2v-2h8V3h-2zm-6 12H4V5h16v10h-6z", fill: "currentColor" })));
 };
 Monitor.displayName = 'Monitor';
-//# sourceMappingURL=Monitor.js.map

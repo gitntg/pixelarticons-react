@@ -16,4 +16,3 @@ export const FileFlash = (_a) => {
         React.createElement("path", { d: "M19 22h-6v-2h6V10h-6V4H5v8H3V2h12v2h2v2h2v2h2v14h-2zM17 6h-2v2h2V6zM7 12h2v4h4v2h-2v2H9v2H7v-4H3v-2h2v-2h2v-2z", fill: "currentColor" })));
 };
 FileFlash.displayName = 'FileFlash';
-//# sourceMappingURL=FileFlash.js.map

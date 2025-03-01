@@ -16,4 +16,3 @@ export const LayoutColumns = (_a) => {
         React.createElement("path", { d: "M2 5h20v14H2V5zm2 2v10h7V7H4zm9 0v10h7V7h-7z", fill: "currentColor" })));
 };
 LayoutColumns.displayName = 'LayoutColumns';
-//# sourceMappingURL=LayoutColumns.js.map

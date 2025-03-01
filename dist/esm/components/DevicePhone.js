@@ -16,4 +16,3 @@ export const DevicePhone = (_a) => {
         React.createElement("path", { d: "M6 3h12v18H6V3zm10 16V5h-2v2h-4V5H8v14h8zm-5-4h2v2h-2v-2z", fill: "currentColor" })));
 };
 DevicePhone.displayName = 'DevicePhone';
-//# sourceMappingURL=DevicePhone.js.map

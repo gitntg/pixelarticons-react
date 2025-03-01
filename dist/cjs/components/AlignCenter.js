@@ -23,4 +23,3 @@ const AlignCenter = (_a) => {
 };
 exports.AlignCenter = AlignCenter;
 exports.AlignCenter.displayName = 'AlignCenter';
-//# sourceMappingURL=AlignCenter.js.map

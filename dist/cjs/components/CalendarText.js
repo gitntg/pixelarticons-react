@@ -23,4 +23,3 @@ const CalendarText = (_a) => {
 };
 exports.CalendarText = CalendarText;
 exports.CalendarText.displayName = 'CalendarText';
-//# sourceMappingURL=CalendarText.js.map

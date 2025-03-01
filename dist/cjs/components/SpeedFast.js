@@ -23,4 +23,3 @@ const SpeedFast = (_a) => {
 };
 exports.SpeedFast = SpeedFast;
 exports.SpeedFast.displayName = 'SpeedFast';
-//# sourceMappingURL=SpeedFast.js.map

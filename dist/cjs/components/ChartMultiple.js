@@ -23,4 +23,3 @@ const ChartMultiple = (_a) => {
 };
 exports.ChartMultiple = ChartMultiple;
 exports.ChartMultiple.displayName = 'ChartMultiple';
-//# sourceMappingURL=ChartMultiple.js.map

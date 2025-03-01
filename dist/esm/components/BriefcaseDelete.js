@@ -16,4 +16,3 @@ export const BriefcaseDelete = (_a) => {
         React.createElement("path", { d: "M16 3H8v4H2v14h12v-2H4V9h16v4h2V7h-6V3zm-2 4h-4V5h4v2zm4 8h-2v2h2v2h-2v2h2v-2h2v2h2v-2h-2v-2h2v-2h-2v2h-2v-2z", fill: "currentColor" })));
 };
 BriefcaseDelete.displayName = 'BriefcaseDelete';
-//# sourceMappingURL=BriefcaseDelete.js.map

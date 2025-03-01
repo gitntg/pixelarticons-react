@@ -23,4 +23,3 @@ const Loader = (_a) => {
 };
 exports.Loader = Loader;
 exports.Loader.displayName = 'Loader';
-//# sourceMappingURL=Loader.js.map

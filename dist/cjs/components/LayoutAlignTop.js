@@ -23,4 +23,3 @@ const LayoutAlignTop = (_a) => {
 };
 exports.LayoutAlignTop = LayoutAlignTop;
 exports.LayoutAlignTop.displayName = 'LayoutAlignTop';
-//# sourceMappingURL=LayoutAlignTop.js.map

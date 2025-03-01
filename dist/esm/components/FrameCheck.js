@@ -16,4 +16,3 @@ export const FrameCheck = (_a) => {
         React.createElement("path", { d: "M2 3h20v18H2V3zm18 16V7H4v12h16zm-4-9h-2v2h-2v2h-2v-2H8v2h2v2h2v-2h2v-2h2v-2z", fill: "currentColor" })));
 };
 FrameCheck.displayName = 'FrameCheck';
-//# sourceMappingURL=FrameCheck.js.map

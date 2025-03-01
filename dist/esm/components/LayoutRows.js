@@ -16,4 +16,3 @@ export const LayoutRows = (_a) => {
         React.createElement("path", { d: "M2 5h20v14H2V5zm2 2v4h16V7H4zm16 6H4v4h16v-4z", fill: "currentColor" })));
 };
 LayoutRows.displayName = 'LayoutRows';
-//# sourceMappingURL=LayoutRows.js.map

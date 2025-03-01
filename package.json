@@ -1,6 +1,6 @@
 {
   "name": "@nicholuassommer/pixelarticons-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pixelarticons as React Components - Finest handmade pixelart icons, now, for React.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

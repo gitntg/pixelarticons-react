@@ -23,4 +23,3 @@ const Membercard = (_a) => {
 };
 exports.Membercard = Membercard;
 exports.Membercard.displayName = 'Membercard';
-//# sourceMappingURL=Membercard.js.map

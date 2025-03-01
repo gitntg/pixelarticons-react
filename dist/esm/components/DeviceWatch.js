@@ -16,4 +16,3 @@ export const DeviceWatch = (_a) => {
         React.createElement("path", { d: "M8 2h8v4h5v12h-5v4H8v-4H3V6h5V2zM5 16h14V8H5v8zm6-6h2v2h2v2h-4v-4z", fill: "currentColor" })));
 };
 DeviceWatch.displayName = 'DeviceWatch';
-//# sourceMappingURL=DeviceWatch.js.map

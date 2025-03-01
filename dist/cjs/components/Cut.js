@@ -23,4 +23,3 @@ const Cut = (_a) => {
 };
 exports.Cut = Cut;
 exports.Cut.displayName = 'Cut';
-//# sourceMappingURL=Cut.js.map

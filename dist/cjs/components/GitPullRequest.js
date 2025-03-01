@@ -23,4 +23,3 @@ const GitPullRequest = (_a) => {
 };
 exports.GitPullRequest = GitPullRequest;
 exports.GitPullRequest.displayName = 'GitPullRequest';
-//# sourceMappingURL=GitPullRequest.js.map

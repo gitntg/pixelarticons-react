@@ -23,4 +23,3 @@ const SpeedMedium = (_a) => {
 };
 exports.SpeedMedium = SpeedMedium;
 exports.SpeedMedium.displayName = 'SpeedMedium';
-//# sourceMappingURL=SpeedMedium.js.map

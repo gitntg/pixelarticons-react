@@ -23,4 +23,3 @@ const MailArrowRight = (_a) => {
 };
 exports.MailArrowRight = MailArrowRight;
 exports.MailArrowRight.displayName = 'MailArrowRight';
-//# sourceMappingURL=MailArrowRight.js.map

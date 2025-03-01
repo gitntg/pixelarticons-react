@@ -23,4 +23,3 @@ const BriefcaseDelete = (_a) => {
 };
 exports.BriefcaseDelete = BriefcaseDelete;
 exports.BriefcaseDelete.displayName = 'BriefcaseDelete';
-//# sourceMappingURL=BriefcaseDelete.js.map

@@ -23,4 +23,3 @@ const ViewportNarrow = (_a) => {
 };
 exports.ViewportNarrow = ViewportNarrow;
 exports.ViewportNarrow.displayName = 'ViewportNarrow';
-//# sourceMappingURL=ViewportNarrow.js.map

@@ -23,4 +23,3 @@ const Reciept = (_a) => {
 };
 exports.Reciept = Reciept;
 exports.Reciept.displayName = 'Reciept';
-//# sourceMappingURL=Reciept.js.map

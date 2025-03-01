@@ -23,4 +23,3 @@ const Power = (_a) => {
 };
 exports.Power = Power;
 exports.Power.displayName = 'Power';
-//# sourceMappingURL=Power.js.map

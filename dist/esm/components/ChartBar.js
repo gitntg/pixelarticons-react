@@ -16,4 +16,3 @@ export const ChartBar = (_a) => {
         React.createElement("path", { d: "M13 5h2v14h-2V5zm-2 4H9v10h2V9zm-4 4H5v6h2v-6zm12 0h-2v6h2v-6z", fill: "currentColor" })));
 };
 ChartBar.displayName = 'ChartBar';
-//# sourceMappingURL=ChartBar.js.map

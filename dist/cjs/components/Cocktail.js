@@ -23,4 +23,3 @@ const Cocktail = (_a) => {
 };
 exports.Cocktail = Cocktail;
 exports.Cocktail.displayName = 'Cocktail';
-//# sourceMappingURL=Cocktail.js.map

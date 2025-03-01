@@ -23,4 +23,3 @@ const MailDelete = (_a) => {
 };
 exports.MailDelete = MailDelete;
 exports.MailDelete.displayName = 'MailDelete';
-//# sourceMappingURL=MailDelete.js.map

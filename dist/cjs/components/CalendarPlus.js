@@ -23,4 +23,3 @@ const CalendarPlus = (_a) => {
 };
 exports.CalendarPlus = CalendarPlus;
 exports.CalendarPlus.displayName = 'CalendarPlus';
-//# sourceMappingURL=CalendarPlus.js.map

@@ -23,4 +23,3 @@ const ColorsSwatch = (_a) => {
 };
 exports.ColorsSwatch = ColorsSwatch;
 exports.ColorsSwatch.displayName = 'ColorsSwatch';
-//# sourceMappingURL=ColorsSwatch.js.map

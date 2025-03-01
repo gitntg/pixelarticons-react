@@ -23,4 +23,3 @@ const Chart = (_a) => {
 };
 exports.Chart = Chart;
 exports.Chart.displayName = 'Chart';
-//# sourceMappingURL=Chart.js.map

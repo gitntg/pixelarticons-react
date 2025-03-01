@@ -23,4 +23,3 @@ const Battery1 = (_a) => {
 };
 exports.Battery1 = Battery1;
 exports.Battery1.displayName = 'Battery1';
-//# sourceMappingURL=Battery1.js.map

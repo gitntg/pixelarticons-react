@@ -16,4 +16,3 @@ export const Check = (_a) => {
         React.createElement("path", { d: "M18 6h2v2h-2V6zm-2 4V8h2v2h-2zm-2 2v-2h2v2h-2zm-2 2h2v-2h-2v2zm-2 2h2v-2h-2v2zm-2 0v2h2v-2H8zm-2-2h2v2H6v-2zm0 0H4v-2h2v2z", fill: "currentColor" })));
 };
 Check.displayName = 'Check';
-//# sourceMappingURL=Check.js.map

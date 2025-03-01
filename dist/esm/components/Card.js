@@ -16,4 +16,3 @@ export const Card = (_a) => {
         React.createElement("path", { d: "M2 4h20v16H2V4zm18 14V6H4v12h16z", fill: "currentColor" })));
 };
 Card.displayName = 'Card';
-//# sourceMappingURL=Card.js.map

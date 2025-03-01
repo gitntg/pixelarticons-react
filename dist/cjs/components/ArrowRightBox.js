@@ -23,4 +23,3 @@ const ArrowRightBox = (_a) => {
 };
 exports.ArrowRightBox = ArrowRightBox;
 exports.ArrowRightBox.displayName = 'ArrowRightBox';
-//# sourceMappingURL=ArrowRightBox.js.map

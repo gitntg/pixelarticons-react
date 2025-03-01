@@ -16,4 +16,3 @@ export const TrashAlt = (_a) => {
         React.createElement("path", { d: "M16 2v4h6v2h-2v14H4V8H2V6h6V2h8zm-2 2h-4v2h4V4zm0 4H6v12h12V8h-4z", fill: "currentColor" })));
 };
 TrashAlt.displayName = 'TrashAlt';
-//# sourceMappingURL=TrashAlt.js.map

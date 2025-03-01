@@ -23,4 +23,3 @@ const InboxFull = (_a) => {
 };
 exports.InboxFull = InboxFull;
 exports.InboxFull.displayName = 'InboxFull';
-//# sourceMappingURL=InboxFull.js.map

@@ -16,4 +16,3 @@ export const Copy = (_a) => {
         React.createElement("path", { d: "M4 2h11v2H6v13H4V2zm4 4h12v16H8V6zm2 2v12h8V8h-8z", fill: "currentColor" })));
 };
 Copy.displayName = 'Copy';
-//# sourceMappingURL=Copy.js.map

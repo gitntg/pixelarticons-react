@@ -23,4 +23,3 @@ const ContactDelete = (_a) => {
 };
 exports.ContactDelete = ContactDelete;
 exports.ContactDelete.displayName = 'ContactDelete';
-//# sourceMappingURL=ContactDelete.js.map

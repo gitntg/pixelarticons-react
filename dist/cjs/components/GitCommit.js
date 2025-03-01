@@ -23,4 +23,3 @@ const GitCommit = (_a) => {
 };
 exports.GitCommit = GitCommit;
 exports.GitCommit.displayName = 'GitCommit';
-//# sourceMappingURL=GitCommit.js.map

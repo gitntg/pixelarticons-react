@@ -23,4 +23,3 @@ const PaintBucket = (_a) => {
 };
 exports.PaintBucket = PaintBucket;
 exports.PaintBucket.displayName = 'PaintBucket';
-//# sourceMappingURL=PaintBucket.js.map

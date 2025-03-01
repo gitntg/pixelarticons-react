@@ -16,4 +16,3 @@ export const Tab = (_a) => {
         React.createElement("path", { d: "M2 3h20v18H2V3zm2 2v14h16V9h-8V5H4z", fill: "currentColor" })));
 };
 Tab.displayName = 'Tab';
-//# sourceMappingURL=Tab.js.map

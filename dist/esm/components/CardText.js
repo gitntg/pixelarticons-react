@@ -16,4 +16,3 @@ export const CardText = (_a) => {
         React.createElement("path", { d: "M4 4H2v16h20V4H4zm0 2h16v12H4V6zm2 2h12v2H6V8zm0 4h10v2H6v-2z", fill: "currentColor" })));
 };
 CardText.displayName = 'CardText';
-//# sourceMappingURL=CardText.js.map

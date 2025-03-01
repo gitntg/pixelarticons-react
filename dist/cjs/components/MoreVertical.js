@@ -23,4 +23,3 @@ const MoreVertical = (_a) => {
 };
 exports.MoreVertical = MoreVertical;
 exports.MoreVertical.displayName = 'MoreVertical';
-//# sourceMappingURL=MoreVertical.js.map

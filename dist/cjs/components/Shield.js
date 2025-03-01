@@ -23,4 +23,3 @@ const Shield = (_a) => {
 };
 exports.Shield = Shield;
 exports.Shield.displayName = 'Shield';
-//# sourceMappingURL=Shield.js.map

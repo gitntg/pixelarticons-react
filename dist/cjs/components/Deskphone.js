@@ -23,4 +23,3 @@ const Deskphone = (_a) => {
 };
 exports.Deskphone = Deskphone;
 exports.Deskphone.displayName = 'Deskphone';
-//# sourceMappingURL=Deskphone.js.map

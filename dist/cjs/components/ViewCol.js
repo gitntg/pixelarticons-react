@@ -23,4 +23,3 @@ const ViewCol = (_a) => {
 };
 exports.ViewCol = ViewCol;
 exports.ViewCol.displayName = 'ViewCol';
-//# sourceMappingURL=ViewCol.js.map

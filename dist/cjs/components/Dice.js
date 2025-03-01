@@ -23,4 +23,3 @@ const Dice = (_a) => {
 };
 exports.Dice = Dice;
 exports.Dice.displayName = 'Dice';
-//# sourceMappingURL=Dice.js.map

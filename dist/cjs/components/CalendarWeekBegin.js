@@ -23,4 +23,3 @@ const CalendarWeekBegin = (_a) => {
 };
 exports.CalendarWeekBegin = CalendarWeekBegin;
 exports.CalendarWeekBegin.displayName = 'CalendarWeekBegin';
-//# sourceMappingURL=CalendarWeekBegin.js.map

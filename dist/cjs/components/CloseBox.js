@@ -23,4 +23,3 @@ const CloseBox = (_a) => {
 };
 exports.CloseBox = CloseBox;
 exports.CloseBox.displayName = 'CloseBox';
-//# sourceMappingURL=CloseBox.js.map

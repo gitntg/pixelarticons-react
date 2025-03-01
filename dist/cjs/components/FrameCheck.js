@@ -23,4 +23,3 @@ const FrameCheck = (_a) => {
 };
 exports.FrameCheck = FrameCheck;
 exports.FrameCheck.displayName = 'FrameCheck';
-//# sourceMappingURL=FrameCheck.js.map

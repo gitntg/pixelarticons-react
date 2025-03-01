@@ -23,4 +23,3 @@ const Camera = (_a) => {
 };
 exports.Camera = Camera;
 exports.Camera.displayName = 'Camera';
-//# sourceMappingURL=Camera.js.map

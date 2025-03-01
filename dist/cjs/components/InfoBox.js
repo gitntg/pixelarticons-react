@@ -23,4 +23,3 @@ const InfoBox = (_a) => {
 };
 exports.InfoBox = InfoBox;
 exports.InfoBox.displayName = 'InfoBox';
-//# sourceMappingURL=InfoBox.js.map

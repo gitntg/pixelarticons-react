@@ -23,4 +23,3 @@ const Menu = (_a) => {
 };
 exports.Menu = Menu;
 exports.Menu.displayName = 'Menu';
-//# sourceMappingURL=Menu.js.map

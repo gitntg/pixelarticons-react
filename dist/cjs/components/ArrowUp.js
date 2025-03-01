@@ -23,4 +23,3 @@ const ArrowUp = (_a) => {
 };
 exports.ArrowUp = ArrowUp;
 exports.ArrowUp.displayName = 'ArrowUp';
-//# sourceMappingURL=ArrowUp.js.map

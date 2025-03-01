@@ -23,4 +23,3 @@ const Delete = (_a) => {
 };
 exports.Delete = Delete;
 exports.Delete.displayName = 'Delete';
-//# sourceMappingURL=Delete.js.map

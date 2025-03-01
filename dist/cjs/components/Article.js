@@ -23,4 +23,3 @@ const Article = (_a) => {
 };
 exports.Article = Article;
 exports.Article.displayName = 'Article';
-//# sourceMappingURL=Article.js.map

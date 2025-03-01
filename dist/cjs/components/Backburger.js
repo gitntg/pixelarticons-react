@@ -23,4 +23,3 @@ const Backburger = (_a) => {
 };
 exports.Backburger = Backburger;
 exports.Backburger.displayName = 'Backburger';
-//# sourceMappingURL=Backburger.js.map

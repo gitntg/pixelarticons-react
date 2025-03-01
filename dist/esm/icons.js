@@ -1953,4 +1953,3 @@ export const componentToOriginal = {
     'Icon4kBox': '4k-box',
     'Icon4g': '4g',
 };
-//# sourceMappingURL=icons.js.map

@@ -16,4 +16,3 @@ export const CreditCardMultiple = (_a) => {
         React.createElement("path", { d: "M1 3h16v2H3v2h14v4H3v4h14v2H1V3zm18 0h-2v14h2V3zM5 19h16v2H5v-2zM23 7h-2v14h2V7z", fill: "currentColor" })));
 };
 CreditCardMultiple.displayName = 'CreditCardMultiple';
-//# sourceMappingURL=CreditCardMultiple.js.map

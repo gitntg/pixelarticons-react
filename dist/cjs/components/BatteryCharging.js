@@ -23,4 +23,3 @@ const BatteryCharging = (_a) => {
 };
 exports.BatteryCharging = BatteryCharging;
 exports.BatteryCharging.displayName = 'BatteryCharging';
-//# sourceMappingURL=BatteryCharging.js.map

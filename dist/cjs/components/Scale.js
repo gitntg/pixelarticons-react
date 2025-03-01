@@ -23,4 +23,3 @@ const Scale = (_a) => {
 };
 exports.Scale = Scale;
 exports.Scale.displayName = 'Scale';
-//# sourceMappingURL=Scale.js.map

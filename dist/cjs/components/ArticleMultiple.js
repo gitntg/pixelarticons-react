@@ -23,4 +23,3 @@ const ArticleMultiple = (_a) => {
 };
 exports.ArticleMultiple = ArticleMultiple;
 exports.ArticleMultiple.displayName = 'ArticleMultiple';
-//# sourceMappingURL=ArticleMultiple.js.map

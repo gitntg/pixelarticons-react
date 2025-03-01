@@ -23,4 +23,3 @@ const LayoutHeader = (_a) => {
 };
 exports.LayoutHeader = LayoutHeader;
 exports.LayoutHeader.displayName = 'LayoutHeader';
-//# sourceMappingURL=LayoutHeader.js.map

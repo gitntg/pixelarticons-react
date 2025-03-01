@@ -23,4 +23,3 @@ const Upload = (_a) => {
 };
 exports.Upload = Upload;
 exports.Upload.displayName = 'Upload';
-//# sourceMappingURL=Upload.js.map

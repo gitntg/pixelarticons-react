@@ -16,4 +16,3 @@ export const MoodNeutral = (_a) => {
         React.createElement("path", { d: "M5 3h14v2H5V3zm0 16H3V5h2v14zm14 0v2H5v-2h14zm0 0h2V5h-2v14zM10 8H8v2h2V8zm4 0h2v2h-2V8zm1 5H9v2h6v-2z", fill: "currentColor" })));
 };
 MoodNeutral.displayName = 'MoodNeutral';
-//# sourceMappingURL=MoodNeutral.js.map

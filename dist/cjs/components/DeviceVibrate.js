@@ -23,4 +23,3 @@ const DeviceVibrate = (_a) => {
 };
 exports.DeviceVibrate = DeviceVibrate;
 exports.DeviceVibrate.displayName = 'DeviceVibrate';
-//# sourceMappingURL=DeviceVibrate.js.map

@@ -23,4 +23,3 @@ const CreditCardMultiple = (_a) => {
 };
 exports.CreditCardMultiple = CreditCardMultiple;
 exports.CreditCardMultiple.displayName = 'CreditCardMultiple';
-//# sourceMappingURL=CreditCardMultiple.js.map

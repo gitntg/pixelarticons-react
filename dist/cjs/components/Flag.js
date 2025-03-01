@@ -23,4 +23,3 @@ const Flag = (_a) => {
 };
 exports.Flag = Flag;
 exports.Flag.displayName = 'Flag';
-//# sourceMappingURL=Flag.js.map

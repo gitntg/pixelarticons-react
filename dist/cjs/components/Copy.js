@@ -23,4 +23,3 @@ const Copy = (_a) => {
 };
 exports.Copy = Copy;
 exports.Copy.displayName = 'Copy';
-//# sourceMappingURL=Copy.js.map

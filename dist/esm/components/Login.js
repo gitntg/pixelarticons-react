@@ -16,4 +16,3 @@ export const Login = (_a) => {
         React.createElement("path", { d: "M5 3H3v4h2V5h14v14H5v-2H3v4h18V3H5zm12 8h-2V9h-2V7h-2v2h2v2H3v2h10v2h-2v2h2v-2h2v-2h2v-2z", fill: "currentColor" })));
 };
 Login.displayName = 'Login';
-//# sourceMappingURL=Login.js.map

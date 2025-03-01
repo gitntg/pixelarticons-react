@@ -23,4 +23,3 @@ const ImageGallery = (_a) => {
 };
 exports.ImageGallery = ImageGallery;
 exports.ImageGallery.displayName = 'ImageGallery';
-//# sourceMappingURL=ImageGallery.js.map

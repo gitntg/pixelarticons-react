@@ -23,4 +23,3 @@ const CalendarSortDescending = (_a) => {
 };
 exports.CalendarSortDescending = CalendarSortDescending;
 exports.CalendarSortDescending.displayName = 'CalendarSortDescending';
-//# sourceMappingURL=CalendarSortDescending.js.map

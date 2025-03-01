@@ -16,4 +16,3 @@ export const Redo = (_a) => {
         React.createElement("path", { d: "M16 4h-2v2h2v2H6v2H4v8h2v2h6v-2H6v-8h10v2h-2v2h2v-2h2v-2h2V8h-2V6h-2V4z", fill: "currentColor" })));
 };
 Redo.displayName = 'Redo';
-//# sourceMappingURL=Redo.js.map

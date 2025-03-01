@@ -27,4 +27,3 @@ export function Icon(_a) {
     return React.createElement(IconComponent, Object.assign({ size: size, className: className }, props));
 }
 Icon.displayName = 'Icon';
-//# sourceMappingURL=Icon.js.map

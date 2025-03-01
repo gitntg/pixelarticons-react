@@ -23,4 +23,3 @@ const Spotlight = (_a) => {
 };
 exports.Spotlight = Spotlight;
 exports.Spotlight.displayName = 'Spotlight';
-//# sourceMappingURL=Spotlight.js.map

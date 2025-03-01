@@ -23,4 +23,3 @@ const VolumeVibrate = (_a) => {
 };
 exports.VolumeVibrate = VolumeVibrate;
 exports.VolumeVibrate.displayName = 'VolumeVibrate';
-//# sourceMappingURL=VolumeVibrate.js.map

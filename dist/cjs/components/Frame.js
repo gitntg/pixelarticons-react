@@ -23,4 +23,3 @@ const Frame = (_a) => {
 };
 exports.Frame = Frame;
 exports.Frame.displayName = 'Frame';
-//# sourceMappingURL=Frame.js.map

@@ -16,4 +16,3 @@ export const Human = (_a) => {
         React.createElement("path", { d: "M10 2h4v4h-4V2zM3 7h18v2h-6v13h-2v-6h-2v6H9V9H3V7z", fill: "currentColor" })));
 };
 Human.displayName = 'Human';
-//# sourceMappingURL=Human.js.map

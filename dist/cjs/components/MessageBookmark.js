@@ -23,4 +23,3 @@ const MessageBookmark = (_a) => {
 };
 exports.MessageBookmark = MessageBookmark;
 exports.MessageBookmark.displayName = 'MessageBookmark';
-//# sourceMappingURL=MessageBookmark.js.map

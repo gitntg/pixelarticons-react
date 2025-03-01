@@ -23,4 +23,3 @@ const DuplicateAlt = (_a) => {
 };
 exports.DuplicateAlt = DuplicateAlt;
 exports.DuplicateAlt.displayName = 'DuplicateAlt';
-//# sourceMappingURL=DuplicateAlt.js.map

@@ -23,4 +23,3 @@ const Archive = (_a) => {
 };
 exports.Archive = Archive;
 exports.Archive.displayName = 'Archive';
-//# sourceMappingURL=Archive.js.map

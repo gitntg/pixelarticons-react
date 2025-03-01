@@ -16,4 +16,3 @@ export const Cart = (_a) => {
         React.createElement("path", { d: "M2 2h4v4h16v11H4V4H2V2zm4 13h14V8H6v7zm0 4h3v3H6v-3zm14 0h-3v3h3v-3z", fill: "currentColor" })));
 };
 Cart.displayName = 'Cart';
-//# sourceMappingURL=Cart.js.map

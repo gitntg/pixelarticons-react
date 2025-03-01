@@ -16,4 +16,3 @@ export const AlignJustify = (_a) => {
         React.createElement("path", { d: "M20 5H4v2h16V5zm0 4H4v2h16V9zM4 13h16v2H4v-2zm16 4H4v2h16v-2z", fill: "currentColor" })));
 };
 AlignJustify.displayName = 'AlignJustify';
-//# sourceMappingURL=AlignJustify.js.map

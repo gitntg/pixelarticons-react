@@ -16,4 +16,3 @@ export const Icon4g = (_a) => {
         React.createElement("path", { d: "M5 7H3v6h5v4h2V7H8v4H5V7zm16 0h-9v10h9v-6h-4v2h2v2h-5V9h7V7z", fill: "currentColor" })));
 };
 Icon4g.displayName = 'Icon4g';
-//# sourceMappingURL=Icon4g.js.map

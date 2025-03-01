@@ -23,4 +23,3 @@ const DevicePhone = (_a) => {
 };
 exports.DevicePhone = DevicePhone;
 exports.DevicePhone.displayName = 'DevicePhone';
-//# sourceMappingURL=DevicePhone.js.map

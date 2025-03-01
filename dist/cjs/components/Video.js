@@ -23,4 +23,3 @@ const Video = (_a) => {
 };
 exports.Video = Video;
 exports.Video.displayName = 'Video';
-//# sourceMappingURL=Video.js.map

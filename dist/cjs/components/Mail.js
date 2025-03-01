@@ -23,4 +23,3 @@ const Mail = (_a) => {
 };
 exports.Mail = Mail;
 exports.Mail.displayName = 'Mail';
-//# sourceMappingURL=Mail.js.map

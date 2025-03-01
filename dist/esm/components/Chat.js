@@ -16,4 +16,3 @@ export const Chat = (_a) => {
         React.createElement("path", { d: "M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z", fill: "currentColor" })));
 };
 Chat.displayName = 'Chat';
-//# sourceMappingURL=Chat.js.map

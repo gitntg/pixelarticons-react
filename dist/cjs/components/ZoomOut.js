@@ -23,4 +23,3 @@ const ZoomOut = (_a) => {
 };
 exports.ZoomOut = ZoomOut;
 exports.ZoomOut.displayName = 'ZoomOut';
-//# sourceMappingURL=ZoomOut.js.map

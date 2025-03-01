@@ -23,4 +23,3 @@ const User = (_a) => {
 };
 exports.User = User;
 exports.User.displayName = 'User';
-//# sourceMappingURL=User.js.map

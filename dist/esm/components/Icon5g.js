@@ -16,4 +16,3 @@ export const Icon5g = (_a) => {
         React.createElement("path", { d: "M10 7H3v6h5v2H3v2h7v-6H5V9h5V7zm11 0h-9v10h9v-6h-4v2h2v2h-5V9h7V7z", fill: "currentColor" })));
 };
 Icon5g.displayName = 'Icon5g';
-//# sourceMappingURL=Icon5g.js.map

@@ -23,4 +23,3 @@ const Anchor = (_a) => {
 };
 exports.Anchor = Anchor;
 exports.Anchor.displayName = 'Anchor';
-//# sourceMappingURL=Anchor.js.map

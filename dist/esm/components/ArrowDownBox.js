@@ -16,4 +16,3 @@ export const ArrowDownBox = (_a) => {
         React.createElement("path", { d: "M3 3h18v18H3V3zm16 16V5H5v14h14zM11 7h2v6h2v2h-2v2h-2v-2H9v-2h2V7zm-2 4v2H7v-2h2zm8 0h-2v2h2v-2z", fill: "currentColor" })));
 };
 ArrowDownBox.displayName = 'ArrowDownBox';
-//# sourceMappingURL=ArrowDownBox.js.map

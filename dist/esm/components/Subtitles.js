@@ -16,4 +16,3 @@ export const Subtitles = (_a) => {
         React.createElement("path", { d: "M21 7h-8v10h8v-2h-6V9h6V7zM3 15V7h8v2H5v6h6v2H3v-2z", fill: "currentColor" })));
 };
 Subtitles.displayName = 'Subtitles';
-//# sourceMappingURL=Subtitles.js.map

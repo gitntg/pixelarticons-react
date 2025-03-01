@@ -23,4 +23,3 @@ const FloatCenter = (_a) => {
 };
 exports.FloatCenter = FloatCenter;
 exports.FloatCenter.displayName = 'FloatCenter';
-//# sourceMappingURL=FloatCenter.js.map

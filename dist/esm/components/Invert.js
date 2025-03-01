@@ -16,4 +16,3 @@ export const Invert = (_a) => {
         React.createElement("path", { d: "M3 3h18v18H3V3zm16 4h-2v2h-2v2h-2v2h-2v2H9v2H7v2h12V7z", fill: "currentColor" })));
 };
 Invert.displayName = 'Invert';
-//# sourceMappingURL=Invert.js.map

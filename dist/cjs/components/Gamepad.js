@@ -23,4 +23,3 @@ const Gamepad = (_a) => {
 };
 exports.Gamepad = Gamepad;
 exports.Gamepad.displayName = 'Gamepad';
-//# sourceMappingURL=Gamepad.js.map

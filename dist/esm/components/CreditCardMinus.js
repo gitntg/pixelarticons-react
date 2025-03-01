@@ -16,4 +16,3 @@ export const CreditCardMinus = (_a) => {
         React.createElement("path", { d: "M20 4H2v16h12v-2H4v-6h16V8H4V6h16V4zm0 0h2v8h-2V4zm2 12h-6v2h6v-2z", fill: "currentColor" })));
 };
 CreditCardMinus.displayName = 'CreditCardMinus';
-//# sourceMappingURL=CreditCardMinus.js.map

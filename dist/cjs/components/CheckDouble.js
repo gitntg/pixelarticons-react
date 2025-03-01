@@ -23,4 +23,3 @@ const CheckDouble = (_a) => {
 };
 exports.CheckDouble = CheckDouble;
 exports.CheckDouble.displayName = 'CheckDouble';
-//# sourceMappingURL=CheckDouble.js.map

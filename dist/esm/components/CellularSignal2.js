@@ -16,4 +16,3 @@ export const CellularSignal2 = (_a) => {
         React.createElement("path", { d: "M16 4v16h6V4h-6Zm4 2v12h-2V6h2ZM2 14h6v6H2v-6Zm13-4H9v10h6V10Z" })));
 };
 CellularSignal2.displayName = 'CellularSignal2';
-//# sourceMappingURL=CellularSignal2.js.map

@@ -23,4 +23,3 @@ const SectionCopy = (_a) => {
 };
 exports.SectionCopy = SectionCopy;
 exports.SectionCopy.displayName = 'SectionCopy';
-//# sourceMappingURL=SectionCopy.js.map

@@ -23,4 +23,3 @@ const FolderX = (_a) => {
 };
 exports.FolderX = FolderX;
 exports.FolderX.displayName = 'FolderX';
-//# sourceMappingURL=FolderX.js.map

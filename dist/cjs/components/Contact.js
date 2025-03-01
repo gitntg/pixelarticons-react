@@ -23,4 +23,3 @@ const Contact = (_a) => {
 };
 exports.Contact = Contact;
 exports.Contact.displayName = 'Contact';
-//# sourceMappingURL=Contact.js.map

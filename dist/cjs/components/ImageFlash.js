@@ -23,4 +23,3 @@ const ImageFlash = (_a) => {
 };
 exports.ImageFlash = ImageFlash;
 exports.ImageFlash.displayName = 'ImageFlash';
-//# sourceMappingURL=ImageFlash.js.map

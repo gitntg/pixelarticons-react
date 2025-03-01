@@ -23,4 +23,3 @@ const Coin = (_a) => {
 };
 exports.Coin = Coin;
 exports.Coin.displayName = 'Coin';
-//# sourceMappingURL=Coin.js.map

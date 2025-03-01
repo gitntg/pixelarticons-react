@@ -23,4 +23,3 @@ const SharpCorner = (_a) => {
 };
 exports.SharpCorner = SharpCorner;
 exports.SharpCorner.displayName = 'SharpCorner';
-//# sourceMappingURL=SharpCorner.js.map

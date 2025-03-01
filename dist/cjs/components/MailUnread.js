@@ -23,4 +23,3 @@ const MailUnread = (_a) => {
 };
 exports.MailUnread = MailUnread;
 exports.MailUnread.displayName = 'MailUnread';
-//# sourceMappingURL=MailUnread.js.map

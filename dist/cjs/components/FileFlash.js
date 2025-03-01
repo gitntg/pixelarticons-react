@@ -23,4 +23,3 @@ const FileFlash = (_a) => {
 };
 exports.FileFlash = FileFlash;
 exports.FileFlash.displayName = 'FileFlash';
-//# sourceMappingURL=FileFlash.js.map

@@ -23,4 +23,3 @@ const RecieptAlt = (_a) => {
 };
 exports.RecieptAlt = RecieptAlt;
 exports.RecieptAlt.displayName = 'RecieptAlt';
-//# sourceMappingURL=RecieptAlt.js.map

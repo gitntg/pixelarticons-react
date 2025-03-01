@@ -23,4 +23,3 @@ const Bookmark = (_a) => {
 };
 exports.Bookmark = Bookmark;
 exports.Bookmark.displayName = 'Bookmark';
-//# sourceMappingURL=Bookmark.js.map

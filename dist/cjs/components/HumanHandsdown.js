@@ -23,4 +23,3 @@ const HumanHandsdown = (_a) => {
 };
 exports.HumanHandsdown = HumanHandsdown;
 exports.HumanHandsdown.displayName = 'HumanHandsdown';
-//# sourceMappingURL=HumanHandsdown.js.map

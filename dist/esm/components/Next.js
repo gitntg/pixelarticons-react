@@ -16,4 +16,3 @@ export const Next = (_a) => {
         React.createElement("path", { d: "M6 4h2v2h2v2h2v2h2v4h-2v2h-2v2H8v2H6V4zm12 0h-2v16h2V4z", fill: "currentColor" })));
 };
 Next.displayName = 'Next';
-//# sourceMappingURL=Next.js.map

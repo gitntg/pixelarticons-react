@@ -23,4 +23,3 @@ const GitBranch = (_a) => {
 };
 exports.GitBranch = GitBranch;
 exports.GitBranch.displayName = 'GitBranch';
-//# sourceMappingURL=GitBranch.js.map

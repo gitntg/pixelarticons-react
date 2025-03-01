@@ -16,4 +16,3 @@ export const RadioHandheld = (_a) => {
         React.createElement("path", { d: "M9 2v5h8v15H7V2h2zm0 7v4h6V9H9zm6 6H9v5h6v-5z", fill: "currentColor" })));
 };
 RadioHandheld.displayName = 'RadioHandheld';
-//# sourceMappingURL=RadioHandheld.js.map

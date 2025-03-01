@@ -23,4 +23,3 @@ const ArrowsVertical = (_a) => {
 };
 exports.ArrowsVertical = ArrowsVertical;
 exports.ArrowsVertical.displayName = 'ArrowsVertical';
-//# sourceMappingURL=ArrowsVertical.js.map

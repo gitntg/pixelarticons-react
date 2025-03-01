@@ -23,4 +23,3 @@ const Circle = (_a) => {
 };
 exports.Circle = Circle;
 exports.Circle.displayName = 'Circle';
-//# sourceMappingURL=Circle.js.map

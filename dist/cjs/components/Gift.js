@@ -23,4 +23,3 @@ const Gift = (_a) => {
 };
 exports.Gift = Gift;
 exports.Gift.displayName = 'Gift';
-//# sourceMappingURL=Gift.js.map

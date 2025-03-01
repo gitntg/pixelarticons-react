@@ -23,4 +23,3 @@ const ShoppingBag = (_a) => {
 };
 exports.ShoppingBag = ShoppingBag;
 exports.ShoppingBag.displayName = 'ShoppingBag';
-//# sourceMappingURL=ShoppingBag.js.map

@@ -16,4 +16,3 @@ export const Frame = (_a) => {
         React.createElement("path", { d: "M2 3h20v18H2V3zm18 16V7H4v12h16z", fill: "currentColor" })));
 };
 Frame.displayName = 'Frame';
-//# sourceMappingURL=Frame.js.map

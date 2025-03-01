@@ -16,4 +16,3 @@ export const Crop = (_a) => {
         React.createElement("path", { d: "M8 2H6v4H2v2h14v14h2v-4h4v-2h-4V6H8V2zm0 8H6v8h8v-2H8v-6z", fill: "currentColor" })));
 };
 Crop.displayName = 'Crop';
-//# sourceMappingURL=Crop.js.map

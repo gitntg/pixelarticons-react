@@ -23,4 +23,3 @@ const CalendarCheck = (_a) => {
 };
 exports.CalendarCheck = CalendarCheck;
 exports.CalendarCheck.displayName = 'CalendarCheck';
-//# sourceMappingURL=CalendarCheck.js.map

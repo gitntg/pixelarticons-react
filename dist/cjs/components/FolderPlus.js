@@ -23,4 +23,3 @@ const FolderPlus = (_a) => {
 };
 exports.FolderPlus = FolderPlus;
 exports.FolderPlus.displayName = 'FolderPlus';
-//# sourceMappingURL=FolderPlus.js.map

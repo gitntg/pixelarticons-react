@@ -23,4 +23,3 @@ const Ship = (_a) => {
 };
 exports.Ship = Ship;
 exports.Ship.displayName = 'Ship';
-//# sourceMappingURL=Ship.js.map

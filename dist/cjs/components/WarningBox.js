@@ -23,4 +23,3 @@ const WarningBox = (_a) => {
 };
 exports.WarningBox = WarningBox;
 exports.WarningBox.displayName = 'WarningBox';
-//# sourceMappingURL=WarningBox.js.map

@@ -16,4 +16,3 @@ export const LayoutFooter = (_a) => {
         React.createElement("path", { d: "M2 5h20v14H2V5zm2 2v6h16V7H4zm16 8H4v2h16v-2z", fill: "currentColor" })));
 };
 LayoutFooter.displayName = 'LayoutFooter';
-//# sourceMappingURL=LayoutFooter.js.map

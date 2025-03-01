@@ -23,4 +23,3 @@ const ScriptText = (_a) => {
 };
 exports.ScriptText = ScriptText;
 exports.ScriptText.displayName = 'ScriptText';
-//# sourceMappingURL=ScriptText.js.map

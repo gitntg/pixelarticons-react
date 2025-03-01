@@ -23,4 +23,3 @@ const BriefcaseCheck = (_a) => {
 };
 exports.BriefcaseCheck = BriefcaseCheck;
 exports.BriefcaseCheck.displayName = 'BriefcaseCheck';
-//# sourceMappingURL=BriefcaseCheck.js.map

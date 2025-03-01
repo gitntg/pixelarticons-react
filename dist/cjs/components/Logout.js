@@ -23,4 +23,3 @@ const Logout = (_a) => {
 };
 exports.Logout = Logout;
 exports.Logout.displayName = 'Logout';
-//# sourceMappingURL=Logout.js.map

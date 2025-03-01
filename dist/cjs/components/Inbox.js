@@ -23,4 +23,3 @@ const Inbox = (_a) => {
 };
 exports.Inbox = Inbox;
 exports.Inbox.displayName = 'Inbox';
-//# sourceMappingURL=Inbox.js.map

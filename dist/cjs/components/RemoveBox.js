@@ -23,4 +23,3 @@ const RemoveBox = (_a) => {
 };
 exports.RemoveBox = RemoveBox;
 exports.RemoveBox.displayName = 'RemoveBox';
-//# sourceMappingURL=RemoveBox.js.map

@@ -16,4 +16,3 @@ export const Downasaur = (_a) => {
         React.createElement("path", { d: "M6 4h14v2h2v6h-8v2h6v2h-4v2h-2v2H2V8h2V6h2V4zm2 6h2V8H8v2z", fill: "currentColor" })));
 };
 Downasaur.displayName = 'Downasaur';
-//# sourceMappingURL=Downasaur.js.map

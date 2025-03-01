@@ -23,4 +23,3 @@ const LayoutFooter = (_a) => {
 };
 exports.LayoutFooter = LayoutFooter;
 exports.LayoutFooter.displayName = 'LayoutFooter';
-//# sourceMappingURL=LayoutFooter.js.map

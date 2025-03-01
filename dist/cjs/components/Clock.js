@@ -23,4 +23,3 @@ const Clock = (_a) => {
 };
 exports.Clock = Clock;
 exports.Clock.displayName = 'Clock';
-//# sourceMappingURL=Clock.js.map

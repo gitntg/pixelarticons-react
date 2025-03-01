@@ -16,4 +16,3 @@ export const RemoveBoxMultiple = (_a) => {
         React.createElement("path", { d: "M5 3H3v14h14V3H5zm10 2v10H5V5h10zm4 2v12H7v2h14V7h-2zm-6 2H7v2h6V9z", fill: "currentColor" })));
 };
 RemoveBoxMultiple.displayName = 'RemoveBoxMultiple';
-//# sourceMappingURL=RemoveBoxMultiple.js.map

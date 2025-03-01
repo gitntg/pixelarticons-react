@@ -23,4 +23,3 @@ const TrendingUp = (_a) => {
 };
 exports.TrendingUp = TrendingUp;
 exports.TrendingUp.displayName = 'TrendingUp';
-//# sourceMappingURL=TrendingUp.js.map

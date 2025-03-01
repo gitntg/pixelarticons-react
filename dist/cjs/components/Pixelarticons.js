@@ -23,4 +23,3 @@ const Pixelarticons = (_a) => {
 };
 exports.Pixelarticons = Pixelarticons;
 exports.Pixelarticons.displayName = 'Pixelarticons';
-//# sourceMappingURL=Pixelarticons.js.map

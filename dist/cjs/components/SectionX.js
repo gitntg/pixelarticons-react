@@ -23,4 +23,3 @@ const SectionX = (_a) => {
 };
 exports.SectionX = SectionX;
 exports.SectionX.displayName = 'SectionX';
-//# sourceMappingURL=SectionX.js.map

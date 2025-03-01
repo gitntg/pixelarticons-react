@@ -23,4 +23,3 @@ const ToggleRight = (_a) => {
 };
 exports.ToggleRight = ToggleRight;
 exports.ToggleRight.displayName = 'ToggleRight';
-//# sourceMappingURL=ToggleRight.js.map

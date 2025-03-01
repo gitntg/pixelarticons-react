@@ -16,4 +16,3 @@ export const AspectRatio = (_a) => {
         React.createElement("path", { d: "M2 4h20v16H2V4zm2 14h16V6H4v12zM8 8h2v2H8v2H6V8h2zm8 8h-2v-2h2v-2h2v4h-2z", fill: "currentColor" })));
 };
 AspectRatio.displayName = 'AspectRatio';
-//# sourceMappingURL=AspectRatio.js.map

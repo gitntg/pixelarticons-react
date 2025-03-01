@@ -16,4 +16,3 @@ export const Folder = (_a) => {
         React.createElement("path", { d: "M4 4h8v2h10v14H2V4h2zm16 4H10V6H4v12h16V8z", fill: "currentColor" })));
 };
 Folder.displayName = 'Folder';
-//# sourceMappingURL=Folder.js.map

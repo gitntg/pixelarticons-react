@@ -23,4 +23,3 @@ const ChevronLeft = (_a) => {
 };
 exports.ChevronLeft = ChevronLeft;
 exports.ChevronLeft.displayName = 'ChevronLeft';
-//# sourceMappingURL=ChevronLeft.js.map

@@ -16,4 +16,3 @@ export const PaintBucket = (_a) => {
         React.createElement("path", { d: "M8 3h8v2H8V3zm0 2H6v4H4v12h16V9h-2V5h-2v4H8V5zm8 6h2v8H6v-8h2v6h2v-4h2v2h2v-2h2v-2z", fill: "currentColor" })));
 };
 PaintBucket.displayName = 'PaintBucket';
-//# sourceMappingURL=PaintBucket.js.map

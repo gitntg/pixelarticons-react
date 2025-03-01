@@ -23,4 +23,3 @@ const Github = (_a) => {
 };
 exports.Github = Github;
 exports.Github.displayName = 'Github';
-//# sourceMappingURL=Github.js.map

@@ -23,4 +23,3 @@ const MoreHorizontal = (_a) => {
 };
 exports.MoreHorizontal = MoreHorizontal;
 exports.MoreHorizontal.displayName = 'MoreHorizontal';
-//# sourceMappingURL=MoreHorizontal.js.map

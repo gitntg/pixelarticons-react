@@ -16,4 +16,3 @@ export const AlignRight = (_a) => {
         React.createElement("path", { d: "M4 5h16v2H4V5zm8 4h8v2h-8V9zm-8 4v2h16v-2H4zm8 4h8v2h-8v-2z", fill: "currentColor" })));
 };
 AlignRight.displayName = 'AlignRight';
-//# sourceMappingURL=AlignRight.js.map

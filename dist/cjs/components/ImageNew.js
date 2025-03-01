@@ -23,4 +23,3 @@ const ImageNew = (_a) => {
 };
 exports.ImageNew = ImageNew;
 exports.ImageNew.displayName = 'ImageNew';
-//# sourceMappingURL=ImageNew.js.map

@@ -16,4 +16,3 @@ export const Paperclip = (_a) => {
         React.createElement("path", { d: "M5 5h16v10H7V9h10v2H9v2h10V7H5v10h14v2H3V5h2z", fill: "currentColor" })));
 };
 Paperclip.displayName = 'Paperclip';
-//# sourceMappingURL=Paperclip.js.map

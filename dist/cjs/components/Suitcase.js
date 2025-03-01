@@ -23,4 +23,3 @@ const Suitcase = (_a) => {
 };
 exports.Suitcase = Suitcase;
 exports.Suitcase.displayName = 'Suitcase';
-//# sourceMappingURL=Suitcase.js.map

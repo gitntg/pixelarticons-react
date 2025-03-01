@@ -23,4 +23,3 @@ const LabelAlt = (_a) => {
 };
 exports.LabelAlt = LabelAlt;
 exports.LabelAlt.displayName = 'LabelAlt';
-//# sourceMappingURL=LabelAlt.js.map

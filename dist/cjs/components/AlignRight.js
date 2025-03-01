@@ -23,4 +23,3 @@ const AlignRight = (_a) => {
 };
 exports.AlignRight = AlignRight;
 exports.AlignRight.displayName = 'AlignRight';
-//# sourceMappingURL=AlignRight.js.map

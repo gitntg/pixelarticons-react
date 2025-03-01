@@ -23,4 +23,3 @@ const NoteMultiple = (_a) => {
 };
 exports.NoteMultiple = NoteMultiple;
 exports.NoteMultiple.displayName = 'NoteMultiple';
-//# sourceMappingURL=NoteMultiple.js.map

@@ -23,4 +23,3 @@ const CalendarToday = (_a) => {
 };
 exports.CalendarToday = CalendarToday;
 exports.CalendarToday.displayName = 'CalendarToday';
-//# sourceMappingURL=CalendarToday.js.map

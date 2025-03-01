@@ -23,4 +23,3 @@ const RoundedCorner = (_a) => {
 };
 exports.RoundedCorner = RoundedCorner;
 exports.RoundedCorner.displayName = 'RoundedCorner';
-//# sourceMappingURL=RoundedCorner.js.map

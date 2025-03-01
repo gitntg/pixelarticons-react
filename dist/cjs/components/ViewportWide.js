@@ -23,4 +23,3 @@ const ViewportWide = (_a) => {
 };
 exports.ViewportWide = ViewportWide;
 exports.ViewportWide.displayName = 'ViewportWide';
-//# sourceMappingURL=ViewportWide.js.map

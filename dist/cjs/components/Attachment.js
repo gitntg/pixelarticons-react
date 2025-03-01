@@ -23,4 +23,3 @@ const Attachment = (_a) => {
 };
 exports.Attachment = Attachment;
 exports.Attachment.displayName = 'Attachment';
-//# sourceMappingURL=Attachment.js.map

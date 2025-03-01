@@ -16,4 +16,3 @@ export const Animation = (_a) => {
         React.createElement("path", { d: "M4 2H2v12h2V4h10V2H4zm2 4h12v2H8v10H6V6zm4 4h12v12H10V10zm10 10v-8h-8v8h8z", fill: "currentColor" })));
 };
 Animation.displayName = 'Animation';
-//# sourceMappingURL=Animation.js.map

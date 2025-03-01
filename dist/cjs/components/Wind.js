@@ -23,4 +23,3 @@ const Wind = (_a) => {
 };
 exports.Wind = Wind;
 exports.Wind.displayName = 'Wind';
-//# sourceMappingURL=Wind.js.map

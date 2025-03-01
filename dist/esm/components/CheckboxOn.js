@@ -16,4 +16,3 @@ export const CheckboxOn = (_a) => {
         React.createElement("path", { d: "M3 3h18v18H3V3zm16 16V5H5v14h14z", fill: "currentColor" })));
 };
 CheckboxOn.displayName = 'CheckboxOn';
-//# sourceMappingURL=CheckboxOn.js.map

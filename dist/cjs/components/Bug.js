@@ -23,4 +23,3 @@ const Bug = (_a) => {
 };
 exports.Bug = Bug;
 exports.Bug.displayName = 'Bug';
-//# sourceMappingURL=Bug.js.map

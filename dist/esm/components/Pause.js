@@ -16,4 +16,3 @@ export const Pause = (_a) => {
         React.createElement("path", { d: "M10 4H5v16h5V4zm9 0h-5v16h5V4z", fill: "currentColor" })));
 };
 Pause.displayName = 'Pause';
-//# sourceMappingURL=Pause.js.map

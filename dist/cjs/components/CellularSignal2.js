@@ -23,4 +23,3 @@ const CellularSignal2 = (_a) => {
 };
 exports.CellularSignal2 = CellularSignal2;
 exports.CellularSignal2.displayName = 'CellularSignal2';
-//# sourceMappingURL=CellularSignal2.js.map

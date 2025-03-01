@@ -23,4 +23,3 @@ const Dollar = (_a) => {
 };
 exports.Dollar = Dollar;
 exports.Dollar.displayName = 'Dollar';
-//# sourceMappingURL=Dollar.js.map

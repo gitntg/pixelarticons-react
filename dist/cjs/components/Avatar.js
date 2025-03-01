@@ -23,4 +23,3 @@ const Avatar = (_a) => {
 };
 exports.Avatar = Avatar;
 exports.Avatar.displayName = 'Avatar';
-//# sourceMappingURL=Avatar.js.map

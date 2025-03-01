@@ -23,4 +23,3 @@ const FrameDelete = (_a) => {
 };
 exports.FrameDelete = FrameDelete;
 exports.FrameDelete.displayName = 'FrameDelete';
-//# sourceMappingURL=FrameDelete.js.map

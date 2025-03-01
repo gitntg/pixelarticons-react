@@ -16,4 +16,3 @@ export const FrameMinus = (_a) => {
         React.createElement("path", { d: "M2 3h20v18H2V3zm18 16V7H4v12h16zM8 12h8v2H8v-2z", fill: "currentColor" })));
 };
 FrameMinus.displayName = 'FrameMinus';
-//# sourceMappingURL=FrameMinus.js.map

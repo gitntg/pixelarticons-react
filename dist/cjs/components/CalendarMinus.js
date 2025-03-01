@@ -23,4 +23,3 @@ const CalendarMinus = (_a) => {
 };
 exports.CalendarMinus = CalendarMinus;
 exports.CalendarMinus.displayName = 'CalendarMinus';
-//# sourceMappingURL=CalendarMinus.js.map

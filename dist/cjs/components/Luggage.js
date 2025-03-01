@@ -23,4 +23,3 @@ const Luggage = (_a) => {
 };
 exports.Luggage = Luggage;
 exports.Luggage.displayName = 'Luggage';
-//# sourceMappingURL=Luggage.js.map

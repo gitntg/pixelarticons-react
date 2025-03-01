@@ -23,4 +23,3 @@ const Draft = (_a) => {
 };
 exports.Draft = Draft;
 exports.Draft.displayName = 'Draft';
-//# sourceMappingURL=Draft.js.map

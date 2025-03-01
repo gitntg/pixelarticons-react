@@ -23,4 +23,3 @@ const ArtText = (_a) => {
 };
 exports.ArtText = ArtText;
 exports.ArtText.displayName = 'ArtText';
-//# sourceMappingURL=ArtText.js.map

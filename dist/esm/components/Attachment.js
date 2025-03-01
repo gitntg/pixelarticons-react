@@ -16,4 +16,3 @@ export const Attachment = (_a) => {
         React.createElement("path", { d: "M7 5v14H5V3h14v18H9V7h6v10h-2V9h-2v10h6V5H7z", fill: "currentColor" })));
 };
 Attachment.displayName = 'Attachment';
-//# sourceMappingURL=Attachment.js.map
