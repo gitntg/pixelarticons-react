@@ -54,8 +54,14 @@ import { User, Heart } from "pixelart/react";
 
 ## Installation
 
+You can install this package from npm or GitHub Packages:
+
 ```bash
+# From npm
 npm install @nsmr/pixelart-react
+
+# From GitHub Packages
+npm install @gitntg/pixelart-react
 ```
 
 ## Usage
