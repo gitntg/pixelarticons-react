@@ -1,13 +1,13 @@
-# Contributing to @pixelarticons/react
+# Contributing to @nsommer/pixelart-react
 
-Thank you for considering contributing to @pixelarticons/react! This document outlines the process for development and contribution.
+Thank you for considering contributing to @nsommer/pixelart-react! This document outlines the process for development and contribution.
 
 ## Development Setup
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourrepo/pixelarticons-react.git
-   cd pixelarticons-react
+   git clone https://github.com/yourrepo/pixelart-react.git
+   cd pixelart-react
    ```
 
 2. Install dependencies

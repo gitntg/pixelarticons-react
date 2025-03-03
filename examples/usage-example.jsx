@@ -11,7 +11,7 @@ import {
   Upload, 
   Download,
   Icon
-} from '@pixelarticons/react';
+} from 'pixelart/react';
 
 const IconExample = () => {
   const [size, setSize] = useState(24);

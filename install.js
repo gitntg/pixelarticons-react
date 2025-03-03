@@ -21,7 +21,7 @@ function detectPackageManager() {
 
 // Main installation process
 function install() {
-  console.log('📦 Setting up @pixelarticons/react...');
+  console.log('📦 Setting up @nsommer/pixelart-react...');
   
   const packageManager = detectPackageManager();
   
@@ -47,12 +47,11 @@ function install() {
       console.log('✅ React is already installed.');
     }
     
-    console.log('\n✨ Setup complete! You can now use @pixelarticons/react in your project.');
-    console.log('\nExample usage:');
-    console.log('\nimport { Icon } from \'@pixelarticons/react\';');
-    console.log('\nfunction App() {');
-    console.log('  return <Icon name="User" size={24} />;');
-    console.log('}');
+    console.log('\n✨ Setup complete! You can now use @nsommer/pixelart-react in your project.');
+    console.log('\n// Option 1: Direct import');
+    console.log('import { Icon } from \'@nsommer/pixelart-react\';');
+    console.log('\n// Option 2: Shorter import path');
+    console.log('import { Icon } from \'pixelart/react\';');
     
   } catch (error) {
     console.error('❌ Setup failed:', error.message);

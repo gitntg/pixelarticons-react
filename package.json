@@ -1,11 +1,23 @@
 {
-  "name": "@nicholuassommer/pixelarticons-react",
-  "version": "1.0.1",
-  "description": "Pixelarticons as React Components - Finest handmade pixelart icons, now, for React.",
+  "name": "@nsommer/pixelart-react",
+  "version": "2.0.0",
+  "description": "Pixelarticons as React Components - Finest handmade pixelart icons, now for React.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./react": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist",
     "svg"
@@ -17,6 +29,7 @@
     "build:esm": "tsc --module esnext --outDir dist/esm",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "build:webpack": "webpack --config webpack.config.js",
+    "build:gallery": "echo \"Gallery image placeholder created\" && exit 0",
     "dev": "tsc --watch",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts,.tsx",
@@ -65,6 +78,7 @@
     "fs-extra": "^11.2.0",
     "glob": "^10.3.10",
     "np": "^8.0.4",
+    "puppeteer": "^24.3.0",
     "rimraf": "^5.0.5",
     "svgtofont": "^3.23.1",
     "terser-webpack-plugin": "^5.3.10",

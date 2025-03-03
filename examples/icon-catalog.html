@@ -337,7 +337,6 @@
           <div 
             key={component} 
             className="icon-card" 
-            onClick={() => copyToClipboard(`import { ${component} } from '@pixelarticons/react';`)}
           >
             <div className="icon-svg">
               {!hasError ? renderSvg(component) : (
@@ -349,6 +348,12 @@
             </div>
             <div className="icon-name">{component}</div>
             <div className="icon-original">{original}</div>
+            <button 
+              className="copy-button" 
+              onClick={() => copyToClipboard(`import { ${component} } from 'pixelart/react';`)}
+            >
+              Copy Import
+            </button>
             {hasError && (
               <div className="error-message">SVG not found</div>
             )}

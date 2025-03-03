@@ -11,6 +11,7 @@ const svgDir = path.resolve(__dirname, '../svg');
 const componentsDir = path.resolve(__dirname, '../src/components');
 const iconsIndexFile = path.resolve(__dirname, '../src/icons.ts');
 const indexFile = path.resolve(__dirname, '../src/index.ts');
+const reactFile = path.resolve(__dirname, '../src/react.ts');
 
 // Utility function to convert kebab-case to PascalCase
 function kebabToPascal(name: string): string {
@@ -160,6 +161,21 @@ export default Icon;
   fs.writeFileSync(indexFile, indexContent);
 }
 
+async function generateReactIndex() {
+  console.log('Generating React index for pixelart/react imports...');
+  
+  // Write React-specific index file
+  const reactContent = `// This file supports the import path: import { IconName } from 'pixelart/react'
+export * from './icons';
+export * from './Icon';
+
+import { Icon } from './Icon';
+export default Icon;
+`;
+  
+  fs.writeFileSync(reactFile, reactContent);
+}
+
 async function createIconComponent() {
   // Create the Icon component
   const iconComponentCode = `import React from 'react';
@@ -204,8 +220,10 @@ async function run() {
     const { componentNames, originalNamesMap } = await generateComponents();
     await generateIconsIndex(componentNames, originalNamesMap);
     await generateMainIndex();
+    await generateReactIndex();
+    console.log('Build completed successfully!');
   } catch (error) {
-    console.error('Error building components:', error);
+    console.error('Build failed:', error);
     process.exit(1);
   }
 }

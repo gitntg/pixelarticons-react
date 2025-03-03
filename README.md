@@ -1,11 +1,58 @@
 # Pixelarticons React
 
+![Pixelarticons React](./cover.png)
+
 React components for [pixelarticons](https://github.com/halfmage/pixelarticons).
+
+## Icon Gallery
+
+<p align="center">
+  <img src="./examples/icon-gallery.png" alt="Pixelarticons Gallery" width="800" />
+</p>
+
+**New!** [View the full interactive gallery with all 486 icons](https://gitntg.github.io/pixelarticons-react/examples/gallery-generator.html)
+
+## 🚨 Version 2.0.0 Migration Guide 🚨
+
+The package has been renamed from `@nicholuassommer/pixelarticons-react` to `@nsommer/pixelart-react` for simplicity.
+
+This is a fork of the original (and amazing) package from halfmage.
+-Please visit https://github.com/halfmage/pixelarticons for the original repo.
+-Also consider purchasing the extended Icon pack @ https://pixelarticons.com/
+
+Actively monitored and maintained by [nicholuassommer](https://github.com/nicholuassommer).
+
+### Migration Steps:
+
+1. Update your package.json dependency:
+
+```diff
+- "@nicholuassommer/pixelarticons-react": "^1.0.1"
++ "@nsommer/pixelart-react": "^2.0.0"
+```
+
+2. Update your imports:
+
+#### Previous import style:
+
+```jsx
+import { User, Heart } from "@nicholuassommer/pixelarticons-react";
+```
+
+#### New import options:
+
+```jsx
+// Option 1: Direct from package (similar to before)
+import { User, Heart } from "@nsommer/pixelart-react";
+
+// Option 2: New shorter path
+import { User, Heart } from "pixelart/react";
+```
 
 ## Installation
 
 ```bash
-npm install @nicholuassommer/pixelarticons-react
+npm install @nsommer/pixelart-react
 ```
 
 ## Usage
@@ -13,7 +60,7 @@ npm install @nicholuassommer/pixelarticons-react
 ### Direct Import
 
 ```jsx
-import { User, Heart, ArrowRight } from "@nicholuassommer/pixelarticons-react";
+import { User, Heart, ArrowRight } from "pixelart/react";
 
 function App() {
   return (
@@ -29,7 +76,7 @@ function App() {
 ### Using Icon Component
 
 ```jsx
-import { Icon } from "@nicholuassommer/pixelarticons-react";
+import { Icon } from "pixelart/react";
 
 function App() {
   return (
@@ -62,7 +109,7 @@ For icons starting with numbers, you can either use the component name with "Ico
 
 ```jsx
 // Direct import
-import { Icon4g } from "@nicholuassommer/pixelarticons-react";
+import { Icon4g } from "pixelart/react";
 
 // Or using the Icon component
 <Icon name="4g" />;

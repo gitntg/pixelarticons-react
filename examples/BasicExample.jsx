@@ -1,6 +1,6 @@
 import React from 'react';
-import { Icon } from '@pixelarticons/react';
-import { User, ShoppingCart, Heart } from '@pixelarticons/react';
+import { Icon } from 'pixelart/react';
+import { User, ShoppingCart, Heart } from 'pixelart/react';
 
 export function BasicExample() {
   return (

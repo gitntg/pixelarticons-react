@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
-import { Icon, IconName } from '@pixelarticons/react';
+import { Icon, IconName } from 'pixelart/react';
 // For direct imports
-import { User, ShoppingCart, Heart } from '@pixelarticons/react';
+import { User, ShoppingCart, Heart } from 'pixelart/react';
 
 // Array of icon names for demo
 const commonIcons = [
@@ -18,7 +18,7 @@ export default function IconsDemo() {
     <div className="container">
       <Head>
         <title>Pixelarticons React Demo</title>
-        <meta name="description" content="Demo for @pixelarticons/react package" />
+        <meta name="description" content="Demo for @nsommer/pixelart-react package" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixelarticons Gallery</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .icon-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: white;
+      border-radius: 8px;
+      padding: 15px 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .icon-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .icon-svg {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-svg svg {
+      width: 24px;
+      height: 24px;
+    }
+    .icon-name {
+      font-size: 12px;
+      text-align: center;
+      color: #555;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .subtitle {
+      margin-top: 5px;
+      color: #777;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* Pixel art styling */
+    svg {
+      shape-rendering: crispEdges;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Pixelarticons React</h1>
+    <p class="subtitle">A collection of pixel-perfect icons for React</p>
+  </div>
+  
+  <div class="gallery" id="gallery">
+    <!-- Icons will be inserted here -->
+  </div>
+
+  <script>
+    // List to hold all icon names
+    let allIcons = [];
+    
+    // Fetch all available icons first
+    async function fetchAllIcons() {
+      try {
+        const response = await fetch('../svg/index.json');
+        if (response.ok) {
+          // Try to load from index.json if available
+          const data = await response.json();
+          allIcons = data.map(icon => {
+            // Convert filename to display name (remove .svg extension)
+            const name = icon.replace(/\.svg$/, '');
+            return name;
+          });
+        } else {
+          // Fallback to our predefined list
+          console.warn("Could not load icon index file, using predefined list");
+          allIcons = displayIcons;
+        }
+      } catch (error) {
+        console.error("Error loading icons:", error);
+        allIcons = displayIcons;
+      }
+    }
+
+    // Define mapping for icons with different display name vs filename
+    const specialIconMappings = {
+      'settings': 'sliders.svg',
+      'unlock': 'lock-open.svg',
+      'phone': 'device-phone.svg'
+      // Add more mappings as needed
+    };
+
+    // Predefined list of common icons (for fallback)
+    const displayIcons = [
+      'user', 'heart', 'home', 'settings', 'notification', 'search',
+      'calendar', 'mail', 'camera', 'cart', 'credit-card', 'download',
+      'upload', 'lock', 'unlock', 'file', 'folder', 'trash',
+      'edit', 'plus', 'minus', 'check', 'close', 'alert',
+      'info-box', 'warning-box', 'lightbulb', 'map', 'phone', 'chat',
+      'picture-in-picture', 'image', 'video', 'music', 'coffee', 'gift',
+      'moon', 'sun', 'star', 'bookmark', 'pin', 'link',
+      'github', 'globe', 'battery', 'cloud', 'compass', 'filter',
+      'flag', 'chart', 'eye', 'fire', 'flash', 'key',
+      'layers', 'layout', 'list', 'map-pin', 'menu', 'monitor',
+      'package', 'paperclip', 'save', 'share', 'shield', 'shopping-bag',
+      'tag', 'thumbs-up', 'trending-up', 'wifi', 'zap'
+    ];
+
+    // Predefined SVG content for common icons (fallback)
+    const fallbackSvgs = {
+      'user': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"/><path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/></svg>',
+      'heart': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M7 3C4.23858 3 2 5.23858 2 8C2 15 12 21 12 21C12 21 22 15 22 8C22 5.23858 19.7614 3 17 3C15.4459 3 14.0656 3.78074 13.2597 5H10.7403C9.93435 3.78074 8.55414 3 7 3Z"/></svg>',
+      'home': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M5 12.5V20H19V12.5"/><path d="M2 10L12 3L22 10"/></svg>',
+      'check': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M21 6L8.625 18L3 12.5455"/></svg>',
+      'close': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M18 6L6 18"/><path d="M6 6L18 18"/></svg>',
+      'plus': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M5 12H19"/><path d="M12 5V19"/></svg>',
+      'minus': '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs"><path d="M5 12H19"/></svg>'
+    };
+
+    // Load SVG file content
+    async function loadSvg(name) {
+      // Check if this icon has a special mapping
+      let svgFile = `${name}.svg`;
+      if (specialIconMappings[name]) {
+        svgFile = specialIconMappings[name];
+      }
+      
+      try {
+        const response = await fetch(`../svg/${svgFile}`);
+        
+        if (!response.ok) {
+          console.warn(`Failed to load SVG for ${name}: ${svgFile}`, response.statusText);
+          return fallbackSvgs[name] || null;
+        }
+        
+        return await response.text();
+      } catch (error) {
+        console.error(`Error loading SVG for ${name}:`, error);
+        return fallbackSvgs[name] || null;
+      }
+    }
+
+    // Create icon grid
+    async function createIcons() {
+      const gallery = document.getElementById('gallery');
+      let loadedCount = 0;
+      
+      // Use all icons if available, otherwise fall back to display icons
+      const iconList = allIcons.length > 0 ? allIcons : displayIcons;
+      
+      for (const name of iconList) {
+        const item = document.createElement('div');
+        item.className = 'icon-item';
+        
+        const iconSvg = document.createElement('div');
+        iconSvg.className = 'icon-svg';
+        
+        // Load SVG from file
+        const svgContent = await loadSvg(name);
+        if (svgContent) {
+          iconSvg.innerHTML = svgContent;
+          loadedCount++;
+        } else {
+          // Fallback to a simple square for missing icons
+          iconSvg.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+            <rect x="4" y="4" width="16" height="16" />
+          </svg>`;
+        }
+        
+        const iconName = document.createElement('div');
+        iconName.className = 'icon-name';
+        iconName.textContent = name;
+        
+        item.appendChild(iconSvg);
+        item.appendChild(iconName);
+        gallery.appendChild(item);
+      }
+      
+      // Add icon count to the subtitle
+      const subtitle = document.querySelector('.subtitle');
+      subtitle.textContent = `A collection of pixel-perfect icons for React (${loadedCount}/${iconList.length} loaded)`;
+    }
+
+    // Initialize icon grid
+    document.addEventListener('DOMContentLoaded', async () => {
+      await fetchAllIcons();
+      createIcons();
+    });
+  </script>
+</body>
+</html>
