@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicholuassommer/pixelarticons-react.git"
+    "url": "git+https://github.com/gitntg/pixelarticons-react.git"
   },
   "keywords": [
     "pixel",
@@ -55,9 +55,9 @@
   "author": "Gerrit Halfmann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nicholuassommer/pixelarticons-react/issues"
+    "url": "https://github.com/gitntg/pixelarticons-react/issues"
   },
-  "homepage": "https://github.com/nicholuassommer/pixelarticons-react#readme",
+  "homepage": "https://github.com/gitntg/pixelarticons-react#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
