@@ -1,0 +1,38 @@
+{
+  "name": "@nicholuassommer/pixelarticons-react",
+  "version": "2.0.0",
+  "description": "DEPRECATED: This package has been renamed to @nsmr/pixelart-react",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitntg/pixelarticons-react.git"
+  },
+  "keywords": [
+    "pixel",
+    "pixelart",
+    "icon",
+    "icons",
+    "iconset",
+    "vector",
+    "react",
+    "react-component",
+    "typescript"
+  ],
+  "author": "Gerrit Halfmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitntg/pixelarticons-react/issues"
+  },
+  "homepage": "https://github.com/gitntg/pixelarticons-react#readme",
+  "dependencies": {
+    "@nsmr/pixelart-react": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}

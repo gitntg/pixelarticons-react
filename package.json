@@ -1,7 +1,7 @@
 {
-  "name": "@nsommer/pixelart-react",
+  "name": "@nsmr/pixelart-react",
   "version": "2.0.0",
-  "description": "Pixelarticons as React Components - Finest handmade pixelart icons, now for React.",
+  "description": "Pixelarticons as React Components - Finest handmade pixelart icons, now for React. Includes interactive gallery with all 486 icons.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,8 @@
   },
   "files": [
     "dist",
-    "svg"
+    "svg",
+    "examples/gallery-generator.html"
   ],
   "sideEffects": false,
   "scripts": {
@@ -29,16 +30,16 @@
     "build:esm": "tsc --module esnext --outDir dist/esm",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "build:webpack": "webpack --config webpack.config.js",
-    "build:gallery": "echo \"Gallery image placeholder created\" && exit 0",
+    "build:gallery": "node scripts/generate-gallery.js",
     "dev": "tsc --watch",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts,.tsx",
     "prepublishOnly": "npm run build",
-    "demo": "npx http-server . -o examples/icon-catalog.html"
+    "demo": "npx http-server . -o examples/gallery-generator.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitntg/pixelarticons.git"
+    "url": "git+https://github.com/nicholuassommer/pixelarticons-react.git"
   },
   "keywords": [
     "pixel",
@@ -54,9 +55,9 @@
   "author": "Gerrit Halfmann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nicholuassommer/pixelarticons/issues"
+    "url": "https://github.com/nicholuassommer/pixelarticons-react/issues"
   },
-  "homepage": "https://github.com/nicholuassommer/pixelarticons#readme",
+  "homepage": "https://github.com/nicholuassommer/pixelarticons-react#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"

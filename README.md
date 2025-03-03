@@ -14,13 +14,12 @@ React components for [pixelarticons](https://github.com/halfmage/pixelarticons).
 
 ## 🚨 Version 2.0.0 Migration Guide 🚨
 
-The package has been renamed from `@nicholuassommer/pixelarticons-react` to `@nsommer/pixelart-react` for simplicity.
+The package includes several improvements in version 2.0.0:
 
-This is a fork of the original (and amazing) package from halfmage.
--Please visit https://github.com/halfmage/pixelarticons for the original repo.
--Also consider purchasing the extended Icon pack @ https://pixelarticons.com/
-
-Actively monitored and maintained by [nicholuassommer](https://github.com/nicholuassommer).
+- Interactive gallery with all 486 icons
+- Improved documentation
+- Better React component support
+- Enhanced build process
 
 ### Migration Steps:
 
@@ -28,7 +27,7 @@ Actively monitored and maintained by [nicholuassommer](https://github.com/nichol
 
 ```diff
 - "@nicholuassommer/pixelarticons-react": "^1.0.1"
-+ "@nsommer/pixelart-react": "^2.0.0"
++ "@nsmr/pixelart-react": "^2.0.0"
 ```
 
 2. Update your imports:
@@ -43,7 +42,7 @@ import { User, Heart } from "@nicholuassommer/pixelarticons-react";
 
 ```jsx
 // Option 1: Direct from package (similar to before)
-import { User, Heart } from "@nsommer/pixelart-react";
+import { User, Heart } from "@nsmr/pixelart-react";
 
 // Option 2: New shorter path
 import { User, Heart } from "pixelart/react";
@@ -52,7 +51,7 @@ import { User, Heart } from "pixelart/react";
 ## Installation
 
 ```bash
-npm install @nsommer/pixelart-react
+npm install @nsmr/pixelart-react
 ```
 
 ## Usage
