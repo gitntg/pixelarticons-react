@@ -1,5 +1,9 @@
 # Pixelarticons React
 
+[![NPM version](https://img.shields.io/npm/v/@nsmr/pixelart-react?style=flat-square)](https://www.npmjs.com/package/@nsmr/pixelart-react)
+[![License](https://img.shields.io/npm/l/@nsmr/pixelart-react?style=flat-square)](https://www.npmjs.com/package/@nsmr/pixelart-react)
+[![Downloads](https://img.shields.io/npm/dt/@nsmr/pixelart-react?style=flat-square)](https://www.npmjs.com/package/@nsmr/pixelart-react)
+
 ![Pixelarticons React](./cover.png)
 
 React components for [pixelarticons](https://github.com/halfmage/pixelarticons).
